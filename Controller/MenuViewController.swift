@@ -1,0 +1,83 @@
+//
+//  MenuViewController.swift
+//  Hydrant
+//
+//  Created by 张润良 on 2017/2/16.
+//  Copyright © 2017年 zhangrunliang. All rights reserved.
+//
+
+import UIKit
+
+class MenuViewController: UIViewController {
+
+    
+    /// 菜单
+    @IBOutlet weak var menu: UIView!
+    
+    /// 地图类型分段控制器
+    @IBOutlet weak var mapTypeSegmentedControl: UISegmentedControl!
+    
+    /// 交通状况开关
+    @IBOutlet weak var showTrafficSwitch: UISwitch!
+    
+    /// 添加消火栓按钮
+    @IBOutlet weak var addHydrantButton: UIButton!
+    
+    /// 报告问题按钮
+    @IBOutlet weak var reportProblemButton: UIButton!
+    
+    /// 点击关闭按钮
+    ///
+    /// - Parameter sender: 关闭按钮
+    @IBAction func touchClose(_ sender: Any) {
+        self.view.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.0)
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    /// 触摸地图类型分段控制器
+    ///
+    /// - Parameter sender: 地图类型分段控制器
+    @IBAction func mapTypeSegmentedControlValueChanged(_ sender: UISegmentedControl) {
+        mapView.mapType = MAMapType(rawValue: sender.selectedSegmentIndex)!
+        mapType.set(i: sender.selectedSegmentIndex)
+    }
+    
+    /// 触摸交通状况开关
+    ///
+    /// - Parameter sender: 交通状况开关
+    @IBAction func showTrafficSwitchValueChanged(_ sender: UISwitch) {
+        mapView.isShowTraffic = sender.isOn
+        showTraffic.set(b: sender.isOn)
+    }
+    
+    @IBAction func touchAddHydrant(_ sender: Any) {
+        
+    }
+    
+    @IBAction func touchReportProblemButton(_ sender: Any) {
+
+    }
+    
+    
+    /// 高德地图
+    var mapView: MAMapView!
+    
+    /// 存储地图类型
+    let mapType = MapType()
+    
+    /// 存储是否显示交通状况
+    let showTraffic = ShowTraffic()
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        setUI()
+    }
+
+    func setUI() {
+        menu.corner(byRoundingCorners: [.topLeft, .topRight], radii: 10)
+        mapTypeSegmentedControl.selectedSegmentIndex = mapType.get()
+        showTrafficSwitch.setOn(showTraffic.get(), animated: false)
+        addHydrantButton.contentHorizontalAlignment = .left
+        reportProblemButton.contentHorizontalAlignment = .left
+    }
+}
