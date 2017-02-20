@@ -7,224 +7,261 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0276A0F7318BAB5802FCFC273BAAA780 /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9299BA39738D53C0706B061EC9E72C4 /* R.swift.Library-dummy.m */; };
-		1A4E441B166E6F130EC0AE60C8BD423D /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10824EC737AC3978C61941D46F93B /* FileResource.swift */; };
-		1F56ADAA85AD4F017E1CDE3FBDEEF24C /* Core+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5296D54CE74E8B008D2ABB1A0820DC /* Core+Migration.swift */; };
-		276A499A0768D8F8D00FC372312C4E10 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2D95A55BE354FE4BA556863DEA193B82 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CCC77FA977DC5CC5A9E1D606E85E90 /* UIViewController+NibResource.swift */; };
-		33AC17117050CDC09C38837D877DB693 /* Pods-Hydrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D86F2AE16ABAD7E110B5C67A34F5E /* Pods-Hydrant-dummy.m */; };
-		45F2E3FF074E66E9DEE5E58134DB6E7A /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A3D875254619E01C3772BE6E30616D /* StoryboardResourceWithInitialController+UIKit.swift */; };
-		504E0F2152EDEBE4D60A14A4E2A03CC9 /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FC16E96F969F58222F9F154701F5B0 /* StoryboardSegueIdentifierProtocol.swift */; };
-		5199A9EF1E3A38DF8CD2F7B21037FB2C /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EDB280A7E5A8A6AE0911F3627AEBC /* NibResource.swift */; };
-		5406648EE61BC4E40625510EE0267A90 /* Pods-Hydrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA09BDE0EF2381B6A1F1BD9AC964DEDB /* Pods-Hydrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5542021D44A6EADED4CC28879B8AFB0C /* Foundation+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689EF2462E6E8C85441CE1790C6C2D10 /* Foundation+Migration.swift */; };
-		63BF93BF2151A3736E4FA55A127DCDE2 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C4D3F06A75BCFC9BAA8C1E832D28951 /* ColorResource.swift */; };
-		6A60A6ABB4B382432EA945CEBCF6C12D /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7B0EB7327F7794C54904B06590BE17 /* StoryboardViewControllerResource.swift */; };
-		74DC97A324584111739C638E124749DC /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD579CCFF0C5EBAF6E1B7DC0FB6405A /* Identifier.swift */; };
-		775BB07E0B033A6C0575E767E7262018 /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE64CF9DDD536DCF822D71653CCAEDA1 /* UINib+NibResource.swift */; };
-		83337425A1B2E6E3960CBA48AEAC956B /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D33B6A3DDD52F07BE7C28D16326D66 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
-		8960C1738A1D9B8DE63ABAF6B5880706 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70F1A3499C556851EB4AD2A6B1733BCE /* UICollectionView+ReuseIdentifierProtocol.swift */; };
-		8E8FF6C0AE6294CAAA11234D0B87DAB7 /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B71D0A413ED9E75A4648AB3CBA6EF2 /* Data+FileResource.swift */; };
-		8EF75B0D45A4840A15B64191E59F3651 /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224DC9EB6205840B708B74D46EE60C6D /* ImageResource.swift */; };
-		903C7546B75F9D5FE71542368641FBC5 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60EE84BAECE6A279B88A121E4CCD7EDC /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
-		92C12C72E37B68955DD92682497DA12A /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8EE60283637D9741FB842556BCC1A7 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
-		A9873A5EFA55F1664C136E66FEEDE9BD /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4A59DEEF68680802B733A86C979DD2 /* StoryboardResource.swift */; };
-		A995EE22A5537DC61BE1D73E7DBD20E4 /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382EF3E0B47B46CFB296E2FD09A708D9 /* UIStoryboard+StoryboardResource.swift */; };
-		AE7261D418DBA51320F733519D56042A /* Bundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828BD4E4EDDF3BAEC69E3B50FF52FF90 /* Bundle+FileResource.swift */; };
-		AF6BB324CCDD2FAAFAA3AB9E5FE3B914 /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7733ACF30D7FBAF17D8FF4DA675E414A /* UITableView+ReuseIdentifierProtocol.swift */; };
-		B2EF387C8091A89D0C58F6B49E02E408 /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA7CE067C76F65CDC0EB4E8ED31C144 /* Validatable.swift */; };
-		B90549D9F3B64AC6BBF3D869BC201791 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78C49F30E9CE36FB3C812BE0746D6386 /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA84C6DC2EB99528F0DC78CC9497EDE2 /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8354CCDD81E062A9E346F679D2FDD0E1 /* UIFont+FontResource.swift */; };
-		C7A4C60ED374447E1363186A33AAA136 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2832FC312BCA706769E77F369E61018 /* StringResource.swift */; };
-		EB30B2B9B27237ACBE1001F6194B8003 /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E8B94A888C281491884ADD44EAD207 /* ReuseIdentifierProtocol.swift */; };
-		F1A750C86E05A7201E30559822F18C33 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3461C703C1C7B4EE58E5ECC550BD0E /* FontResource.swift */; };
-		F5731B775EE7BA7CE470912F290A2148 /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62FC705FD17717C5D1D22A278813FA87 /* UIImage+ImageResource.swift */; };
-		F5F38E51E9DBBA2313ED74876436103C /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCA2B488101D74E313D88FBC50C8170 /* ColorResource+UIKit.swift */; };
-		F6DCCAE1DA239D893E435A865CCEBA90 /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3959FB82E5410E7B9DA37CD3AA7D64 /* NibResource+UIKit.swift */; };
-		F9FC06982BE878195C5E1E4071EC3CDA /* UIKit+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3253F5961B696175041D49A9D67A56 /* UIKit+Migration.swift */; };
-		FCDA10889727A742FA4F554DF8CA77C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		01A6FB4FB1EBF6B9033A44017F3706F4 /* ColorResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C746BBB9AF5AA5E43FA92210B11D7F /* ColorResource+UIKit.swift */; };
+		02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6FBD5AF2BE7B9A2553F9B08CF8CF32 /* DropDown.swift */; };
+		03F35F849A5CAB2641B4D9ABC7C81D95 /* UIViewController+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2533FD6325EAFD480ADA6CB486A5F2 /* UIViewController+NibResource.swift */; };
+		098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E551D79C88772463F14D9970A34515 /* DropDownCell.swift */; };
+		0E3F61911A7FD6871A96D94016E6967D /* ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC7780390E2719EE873067C73EC645D /* ImageResource.swift */; };
+		10DEC7910CFCE5C8A1A66C3D9499ADCB /* StoryboardResourceWithInitialController+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72EC11F2F13AB3DEA76A060B9DC4E31 /* StoryboardResourceWithInitialController+UIKit.swift */; };
+		1BC040408C447DA4031D7A2DCB0535BF /* Pods-Hydrant-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA09BDE0EF2381B6A1F1BD9AC964DEDB /* Pods-Hydrant-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2356CCA2E535AA77DF04958DC36710CC /* Core+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BDE98299FFB5FC29BFA99F8A7756478 /* Core+Migration.swift */; };
+		26FBE229DA97DA591709696E5970EE4B /* UIFont+FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F111F703DCB998C038CE57C0A5D63C /* UIFont+FontResource.swift */; };
+		2E792FFC78522102D13681128367E491 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DD84E963F5E7EC71D07F2097CDF6F780 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3083DBC05573E2B46C9F9DE07B5EBA5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		34D0D2DAE6E0ECE3E1702A5170F9D6E5 /* UIKit+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BE8385F766A27AB0376983B504CE39 /* UIKit+Migration.swift */; };
+		37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A71ECF6F3009A0E7C2D64F738B31373A /* DropDownCell.xib */; };
+		442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EC40382BE7AF0417F0B722ED3FC9B9F /* DropDown+Appearance.swift */; };
+		448C79B4A356A977807E0F2436A4ED01 /* R.swift.Library-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 802DCBF2A761678CF454554A77E5CD2B /* R.swift.Library-dummy.m */; };
+		4D9429C633BD469988C429A0BC48E699 /* Pods-Hydrant-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1D86F2AE16ABAD7E110B5C67A34F5E /* Pods-Hydrant-dummy.m */; };
+		54EB5A2A5DE64E5DB9A2EE9099686CC4 /* NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2561E02B85F093D704F0CF8B6F709F /* NibResource.swift */; };
+		6D1B4F86EB0626BEF77A6E5227501E60 /* ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912D0F74B004FAEECB19AD242766829D /* ReuseIdentifierProtocol.swift */; };
+		7480E8030BED7AD5A31B7312699221C9 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB187E78B54022544E69BC1BE19D509 /* UIStoryboard+StoryboardViewControllerResource.swift */; };
+		74C79959742C2D70646950DB65F80C58 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D21875D440AC589F923ABF5F54241 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */; };
+		74F79899A4470C134F059554C7D8157D /* Data+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CDAE0A842DDAAF71C54D383F8B5517 /* Data+FileResource.swift */; };
+		74FEF77B734C7114217B4D035627D6C0 /* StoryboardViewControllerResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8037BA8E52AE852C2DA00EB6BD19EBB /* StoryboardViewControllerResource.swift */; };
+		76F34CE6979CDFF9342556E758AE7031 /* ColorResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7008E2BEF9FC4BF1212BC73D0BB5CD /* ColorResource.swift */; };
+		794990852BA917E4B91912EED93F77B9 /* UIStoryboard+StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 602F486FD9307B80572B3BEC0ACEC07A /* UIStoryboard+StoryboardResource.swift */; };
+		7F014B158F4052C61B05506322A76B93 /* FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07A788BC4361960DD78F9A40712512A /* FileResource.swift */; };
+		85E0EFFEBA3754E40C0D6F5F9D7F6E2A /* Validatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81546973E7C0E17B4550F7DA47EFD2D /* Validatable.swift */; };
+		86F447942BD0B797FE48B91EC712F96C /* NibResource+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194BCD201E72853B67BA817BD945546 /* NibResource+UIKit.swift */; };
+		8B490169213E1EC2AC401191321003A0 /* StringResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EBAB30F008722DD9E83CB857B1FCC7 /* StringResource.swift */; };
+		8D53F36EECA0D645894ABC50F3EE5A89 /* Identifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20016B6EFC5FB2B37A5FB46CAB1A3B77 /* Identifier.swift */; };
+		989C478D06DB6C925397CA5D986AB6B7 /* Bundle+FileResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EF0CE7EFE31F92FA0CF0A20F52B598 /* Bundle+FileResource.swift */; };
+		9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39CA23CB535D58642C77D8B75FA24469 /* DPDKeyboardListener.swift */; };
+		9DAA4939B8EADFC46CD301E82D16D378 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28825F9C7186D1406D8D74BEFDBD030F /* DPDUIView+Extension.swift */; };
+		A607812543C7D0CE3FAB964EAE53F6CE /* UIImage+ImageResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9103C702EE00FD4EB62660FBFC4257E /* UIImage+ImageResource.swift */; };
+		A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B48D5C951C371CF867B3BA544DF39BD /* DPDConstants.swift */; };
+		A865A5E3DFE64E276EF2634ED39CB406 /* StoryboardResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5BEB9569E88BFA45B307A6521299F3 /* StoryboardResource.swift */; };
+		AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CC854402A27199D80DE4287C4846C7 /* DropDown-dummy.m */; };
+		B0B49E0F1506804D1C7012A0734F9D84 /* UITableView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94AEAF36F1BF54AB9F50516C6A9708A /* UITableView+ReuseIdentifierProtocol.swift */; };
+		B512DBAFD98A08F9ECE12EBDDE94E9E3 /* Foundation+Migration.swift in Sources */ = {isa = PBXBuildFile; fileRef = C168C011FD6308EEB6FB0BB884346354 /* Foundation+Migration.swift */; };
+		CB1CE38C091A7DBF27A37AED1876FB50 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17969F124F00E8694654DC0BCDCACEDE /* UICollectionView+ReuseIdentifierProtocol.swift */; };
+		CC2EAC5A0218AFB033E881619F82B86E /* UINib+NibResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EDD803257F23FD12BE47E1BDCE6331 /* UINib+NibResource.swift */; };
+		D13D0B4CDCD6887BD0960C63954E0CE3 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C82F9CEB97A0FBE60935A881E805019C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */; };
+		ECF301A06C245F2F991CF67E5138AFCD /* StoryboardSegueIdentifierProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B112F55DEE9513AE370E215BA5C110DB /* StoryboardSegueIdentifierProtocol.swift */; };
+		EF004AE1DA6BEC45095372C61B4BAAC6 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A63C2F100F98EA5B6BE74E08B7670E /* FontResource.swift */; };
+		F387EC8F0E0B85ECFE76976065C050F3 /* R.swift.Library-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D32BFE969EB9536549E91BEF1EEDDCE /* R.swift.Library-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B2A188A569AE401F3E3E34F4B39EF94E /* PBXContainerItemProxy */ = {
+		0C114BBF9D26E687C62FAF6D58AEEED5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2D244953B9FC11E746C7F15A6D35AAF7;
+			remoteGlobalIDString = C169362E18882C8C325334F820EA3530;
 			remoteInfo = R.swift.Library;
+		};
+		A2DC79017972F3BD1140B10272A03C0F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5168099F2EBFC99A707C03C9EADE01A5;
+			remoteInfo = DropDown;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		023C7D6CB7800112BF34795CCC576E5F /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
 		02EA2D5D434DA456306FB48C5A97A131 /* Pods-Hydrant.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hydrant.release.xcconfig"; sourceTree = "<group>"; };
-		04AD6517090EB409F845F15F50BE2F68 /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
-		060F5069D826DDD1B223BC28A24D7BF1 /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
-		06B71D0A413ED9E75A4648AB3CBA6EF2 /* Data+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileResource.swift"; path = "Library/Foundation/Data+FileResource.swift"; sourceTree = "<group>"; };
-		08D847BC9304C8DCFEC6FD79D2FA6211 /* MATraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceManager.h; path = MAMapKit.framework/Headers/MATraceManager.h; sourceTree = "<group>"; };
+		03C860C279A8934796BA1B0847C25165 /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
+		04C595A9DB1E56505C502A63FDA32829 /* AMapNaviStatisticsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviStatisticsInfo.h; path = AMapNaviKit.framework/Headers/AMapNaviStatisticsInfo.h; sourceTree = "<group>"; };
+		059837AF8824810882634D119671B97C /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
 		09E27B09B141D34654330F4B90004286 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0B47AC4FD53FC1D8E4CBBF9D745266B3 /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
-		0E3461C703C1C7B4EE58E5ECC550BD0E /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
-		0FFABF122F81FBF0F6378CE22BAE4E7D /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
-		11C51067583179BA9A374814B1FF24F1 /* AMapNaviWalkDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkDataRepresentable.h; sourceTree = "<group>"; };
-		19081B52CBFB8BB6ABFE0BA0EE6A895E /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
-		1BF638DCBC0131EF534ABAD72A5CB0DC /* MAOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItem.h; path = MAMapKit.framework/Headers/MAOfflineItem.h; sourceTree = "<group>"; };
-		1E72AAF2D07C95D29EEB18B2E2D1A97B /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
-		1EE9C7B32674DD774DD7EA8E38922912 /* AMapNaviRideDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviRideDataRepresentable.h; sourceTree = "<group>"; };
-		203859B10B5075271996CF93AEB5E3BE /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rswift.framework; path = R.swift.Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2054BA95F214A1EE89FEBB46A7AC5A54 /* AMapNaviBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviBaseManager.h; path = AMapNaviKit.framework/Headers/AMapNaviBaseManager.h; sourceTree = "<group>"; };
-		20EF0F65C25CAF68A7E9B530EA8917E4 /* MAMapVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapVersion.h; path = MAMapKit.framework/Headers/MAMapVersion.h; sourceTree = "<group>"; };
-		224DC9EB6205840B708B74D46EE60C6D /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Library/Core/ImageResource.swift; sourceTree = "<group>"; };
-		22BB8FC3C81E12239825B9363538D35B /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		0B1E37D2535596218ACF2CCDF25AEDFB /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
+		0B48D5C951C371CF867B3BA544DF39BD /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		0E5BEB9569E88BFA45B307A6521299F3 /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
+		0FE03E4CBB81806A7AEC1A12F6B7A39C /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		1007D5263A243E649D16C4CD75B16BA2 /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
+		14245F54673E8E6BC3DF845CC179D299 /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
+		17969F124F00E8694654DC0BCDCACEDE /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		1817CE1BDE58172959E46E490A33A63E /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
+		182D78F85AE713D6A7294C3B2D0D9CA9 /* AMapNaviRideManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideManager.h; path = AMapNaviKit.framework/Headers/AMapNaviRideManager.h; sourceTree = "<group>"; };
+		1A7008E2BEF9FC4BF1212BC73D0BB5CD /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
+		1BDE98299FFB5FC29BFA99F8A7756478 /* Core+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Core+Migration.swift"; path = "Library/Core/Core+Migration.swift"; sourceTree = "<group>"; };
+		1BF9372FB85E8EA5A46A8EAF4B182541 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
+		1CB5EBC6A5FCF0BF539DEDEF854197D2 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
+		1F43A8A53C97FD2C2B2107F727B95D29 /* Pods_Hydrant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hydrant.framework; path = "Pods-Hydrant.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F91179D2C03B7FEE73D75BD5ED2D74B /* AMapNaviKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviKit.h; path = AMapNaviKit.framework/Headers/AMapNaviKit.h; sourceTree = "<group>"; };
+		20016B6EFC5FB2B37A5FB46CAB1A3B77 /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
+		234BBEF7D15BD324AA0A53424A4A5359 /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
+		23CDAE0A842DDAAF71C54D383F8B5517 /* Data+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+FileResource.swift"; path = "Library/Foundation/Data+FileResource.swift"; sourceTree = "<group>"; };
+		253FA8D921C053D1FA28938E0730251A /* AMapLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationVersion.h; path = AMapLocationKit.framework/Headers/AMapLocationVersion.h; sourceTree = "<group>"; };
+		25B46DADEA4D67AED2FD2BDB536BB84A /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
+		25E551D79C88772463F14D9970A34515 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		27128024354CCB7F36695ED7D32629C5 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
+		27F111F703DCB998C038CE57C0A5D63C /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
+		28825F9C7186D1406D8D74BEFDBD030F /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		2949550BF4B9F85F02168255CB418941 /* Pods-Hydrant-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hydrant-frameworks.sh"; sourceTree = "<group>"; };
-		2B3F0F7B77F62C54C0CD6E5A7CD433BA /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
-		310079413E046BB53061F22EC2CD64EF /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
-		33E8C007FEE8BA96503333BF1937C0FE /* R.swift.Library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-prefix.pch"; sourceTree = "<group>"; };
-		34004D8CD5299E6D0E85ABC7AD636FF5 /* AMapLocationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationKit.h; path = AMapLocationKit.framework/Headers/AMapLocationKit.h; sourceTree = "<group>"; };
-		35692B373A199D4DA651B9A3A57A443E /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
-		362ED42805C8275C1351FCB8EE5E6FE4 /* AMapNaviRideManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideManager.h; path = AMapNaviKit.framework/Headers/AMapNaviRideManager.h; sourceTree = "<group>"; };
-		382EF3E0B47B46CFB296E2FD09A708D9 /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
-		3A33400003107284A579685E54456E87 /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
-		3E137BB8690240DB06A3C19155E931D2 /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
-		402A166D788E44BBAA95B9A4CF10E380 /* AMapNaviInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviInfo.h; path = AMapNaviKit.framework/Headers/AMapNaviInfo.h; sourceTree = "<group>"; };
-		42E2BE6A096448246E59A59F288A57FF /* AMapNaviLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviLocation.h; path = AMapNaviKit.framework/Headers/AMapNaviLocation.h; sourceTree = "<group>"; };
-		43E8B94A888C281491884ADD44EAD207 /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
-		47187DCF973C898F1DFF63024E671DE9 /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
-		473503DB9C8A9CB818B383D79992F97C /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
-		475AFE51ABD6423A6F095B8F30FA960C /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
+		2AEA1479663BC0AF9BA851AE0B8FA5C0 /* MAOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlay.h; path = MAMapKit.framework/Headers/MAOverlay.h; sourceTree = "<group>"; };
+		2EC7780390E2719EE873067C73EC645D /* ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageResource.swift; path = Library/Core/ImageResource.swift; sourceTree = "<group>"; };
+		2FB187E78B54022544E69BC1BE19D509 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
+		33A7C6DE1440AC073130F66D9019A020 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
+		35A2479B15805EE62466C421EAE20094 /* AMapNaviWalkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkManager.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkManager.h; sourceTree = "<group>"; };
+		35C746BBB9AF5AA5E43FA92210B11D7F /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+UIKit.swift"; path = "Library/UIKit/ColorResource+UIKit.swift"; sourceTree = "<group>"; };
+		36E227B01828CD9933865CFB749F1254 /* AMapNaviCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCommonObj.h; path = AMapNaviKit.framework/Headers/AMapNaviCommonObj.h; sourceTree = "<group>"; };
+		39CA23CB535D58642C77D8B75FA24469 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		443164939863BF162A5F9DCC761ECEAF /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
+		4518A9A3A270BD55865E66A08B440FDB /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
+		46BA492BB6D1A255AF93AD1AC868E06F /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
+		4725433F986790B547D9CABE06810A65 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
+		49AFC766FF0488FCB550F053A14E3FEF /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
 		4A22E528CE40DA22C6798D4B7BD3BFAD /* Pods-Hydrant-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hydrant-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C4D3F06A75BCFC9BAA8C1E832D28951 /* ColorResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorResource.swift; path = Library/Core/ColorResource.swift; sourceTree = "<group>"; };
-		4C5FFAA535F7D3C632B260E707F1104E /* AMapNavi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = AMapNaviKit.framework/AMapNavi.bundle; sourceTree = "<group>"; };
-		4EE3020B697302F9E4232F5D7447D10E /* AMapNaviRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRoute.h; path = AMapNaviKit.framework/Headers/AMapNaviRoute.h; sourceTree = "<group>"; };
-		51328B421EC2836D6B6A630C6F113833 /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
-		51D33B6A3DDD52F07BE7C28D16326D66 /* UIStoryboard+StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardViewControllerResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardViewControllerResource.swift"; sourceTree = "<group>"; };
-		55CC835CE1D1F94DB846F98293CA0F32 /* R.swift.Library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.xcconfig; sourceTree = "<group>"; };
-		568785539625C3847A74C1F4378167B2 /* AMapNaviDriveDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveDataRepresentable.h; sourceTree = "<group>"; };
-		56B4BB1F63E2E5163118532B58266A6E /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
-		574175A9196E9694D14A024F96D443FC /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationCommonObj.h; path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h; sourceTree = "<group>"; };
-		59C95A97A4C1A222D44A031F6468D4DD /* AMapNaviStatisticsInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviStatisticsInfo.h; path = AMapNaviKit.framework/Headers/AMapNaviStatisticsInfo.h; sourceTree = "<group>"; };
+		4C36F847580835B0DAFDF323797F1C8C /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
+		4C41AB1E6C81E2CF12ED34E56EDAA14A /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
+		4E3E6FBAE57ECF3206F0794BA1F7E465 /* AMapLocationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationKit.h; path = AMapLocationKit.framework/Headers/AMapLocationKit.h; sourceTree = "<group>"; };
+		4F2533FD6325EAFD480ADA6CB486A5F2 /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
+		50253CE996A2AA6430FF642C6FDBB0C0 /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
+		5091B3B7045EE0ADA7A00EFFABCCC5C3 /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
+		53E1FA7F4A9AB58DE11CE64EC8B1121D /* AMapLocationCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationCommonObj.h; path = AMapLocationKit.framework/Headers/AMapLocationCommonObj.h; sourceTree = "<group>"; };
+		53EF0CE7EFE31F92FA0CF0A20F52B598 /* Bundle+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FileResource.swift"; path = "Library/Foundation/Bundle+FileResource.swift"; sourceTree = "<group>"; };
+		54EB718A11BA8D384D8D456B2ED18987 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A1D86F2AE16ABAD7E110B5C67A34F5E /* Pods-Hydrant-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hydrant-dummy.m"; sourceTree = "<group>"; };
-		5B3959FB82E5410E7B9DA37CD3AA7D64 /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
-		5BBBA33992AD88167A31CA9CC869617A /* AMapNaviDriveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveManager.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveManager.h; sourceTree = "<group>"; };
-		5CCA2B488101D74E313D88FBC50C8170 /* ColorResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ColorResource+UIKit.swift"; path = "Library/UIKit/ColorResource+UIKit.swift"; sourceTree = "<group>"; };
-		60EE84BAECE6A279B88A121E4CCD7EDC /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		62FC705FD17717C5D1D22A278813FA87 /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "Library/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
-		6362B6E91B31F37A2411FBFA38CA1382 /* AMapNaviRoutePolylineOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRoutePolylineOption.h; path = AMapNaviKit.framework/Headers/AMapNaviRoutePolylineOption.h; sourceTree = "<group>"; };
-		689EF2462E6E8C85441CE1790C6C2D10 /* Foundation+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Foundation+Migration.swift"; path = "Library/Foundation/Foundation+Migration.swift"; sourceTree = "<group>"; };
-		694E9826599CF199FF9C9DCEACE094AE /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
-		6B4A59DEEF68680802B733A86C979DD2 /* StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardResource.swift; path = Library/Core/StoryboardResource.swift; sourceTree = "<group>"; };
-		70F1A3499C556851EB4AD2A6B1733BCE /* UICollectionView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UICollectionView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UICollectionView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		71DD80062235B647AF4B08DEFC6BFD73 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
+		5A7DFA0A4088D09D549429768E4433A4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABDAAF0C78E0C38A84C139DCBF9C9FC /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
+		5D32BFE969EB9536549E91BEF1EEDDCE /* R.swift.Library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-umbrella.h"; sourceTree = "<group>"; };
+		602F486FD9307B80572B3BEC0ACEC07A /* UIStoryboard+StoryboardResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIStoryboard+StoryboardResource.swift"; path = "Library/UIKit/UIStoryboard+StoryboardResource.swift"; sourceTree = "<group>"; };
+		61CC854402A27199D80DE4287C4846C7 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		65C3994FA96E2DD7F1AE09A46546FE93 /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
+		6683E87BE00FD21C2067ABE5AAA94CE8 /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
+		6B4533336E28A1E0E3698F14281A0D41 /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
+		6B735D11DAFBB0D0CE9C618DBB081E1B /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		6EB2166CE2E38D4431918815306E1A47 /* MAShape.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAShape.h; path = MAMapKit.framework/Headers/MAShape.h; sourceTree = "<group>"; };
 		729484EA97911B8A507AAA0A576B6742 /* Pods-Hydrant-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hydrant-acknowledgements.plist"; sourceTree = "<group>"; };
-		7297119F177C00D8873C3DD75033A968 /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
-		73B04CFAB4B6C9CFAB8B9F4518D5B4A4 /* AMapNaviVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviVersion.h; path = AMapNaviKit.framework/Headers/AMapNaviVersion.h; sourceTree = "<group>"; };
-		740CBAB59BD968EA905CDED9405D935F /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
-		7733ACF30D7FBAF17D8FF4DA675E414A /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
-		78B38474F27D8398915ADE97E2B91887 /* AMapSearchObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchObj.h; path = AMapSearchKit.framework/Headers/AMapSearchObj.h; sourceTree = "<group>"; };
-		78C49F30E9CE36FB3C812BE0746D6386 /* R.swift.Library-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-umbrella.h"; sourceTree = "<group>"; };
-		79626617C21992845D1C8C2DED908114 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
-		7BBC8E6A645DAAE9987B26BF384A867A /* MAOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayRenderer.h; path = MAMapKit.framework/Headers/MAOverlayRenderer.h; sourceTree = "<group>"; };
-		7F14AB6CCCE07DB9B0DF05E4DA177B3D /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
-		7F89A2096188B0711F136923F88A6107 /* AMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMap.bundle; path = MAMapKit.framework/AMap.bundle; sourceTree = "<group>"; };
-		803FCFCC04C3EF91A68F38F97A366937 /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
-		80A3D875254619E01C3772BE6E30616D /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
-		817CC3735031C2E95EAF95E901CDDDCC /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
-		818859D89E05D2DF987339C3208AD2E2 /* AMapNaviCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviCommonObj.h; path = AMapNaviKit.framework/Headers/AMapNaviCommonObj.h; sourceTree = "<group>"; };
-		828BD4E4EDDF3BAEC69E3B50FF52FF90 /* Bundle+FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+FileResource.swift"; path = "Library/Foundation/Bundle+FileResource.swift"; sourceTree = "<group>"; };
-		8354CCDD81E062A9E346F679D2FDD0E1 /* UIFont+FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIFont+FontResource.swift"; path = "Library/UIKit/UIFont+FontResource.swift"; sourceTree = "<group>"; };
-		84AABB777D0959DF79E1B321E401562A /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
-		8E85A7EEAAE236E3BA8B6623556AA4FD /* MAMapView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapView.h; path = MAMapKit.framework/Headers/MAMapView.h; sourceTree = "<group>"; };
-		924EDB280A7E5A8A6AE0911F3627AEBC /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
+		72DAF144DF43C2AC80AB6235A8B1C8CE /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
+		73F9DB34BEBC373CA10BF096B948296D /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
+		7577C40048C1F69BC838626D5A99AC69 /* AMapNaviWalkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkView.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkView.h; sourceTree = "<group>"; };
+		75875149887A8E0EC789FCFDC9B92DB9 /* AMapNaviLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviLocation.h; path = AMapNaviKit.framework/Headers/AMapNaviLocation.h; sourceTree = "<group>"; };
+		762D14BFCBD2D07308A2A661452E0766 /* AMapNaviHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviHUDView.h; path = AMapNaviKit.framework/Headers/AMapNaviHUDView.h; sourceTree = "<group>"; };
+		77C1962229C1B4F0DBC2917A3DFC6E1E /* AMapGeoFenceRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceRegionObj.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceRegionObj.h; sourceTree = "<group>"; };
+		77F601B18507743A34EB1A8982117310 /* MAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfig.h; path = MAMapKit.framework/Headers/MAConfig.h; sourceTree = "<group>"; };
+		7B4642B47864686B6E54B5DEFD72320C /* AMapNaviRideDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviRideDataRepresentable.h; sourceTree = "<group>"; };
+		7D05D3F86B20272E772275171F20AE4E /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
+		7F57C69677C3BBE5538A5713264EEFD1 /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
+		802DCBF2A761678CF454554A77E5CD2B /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
+		86894DBC6242244BF848BDD9C2757385 /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
+		887E196709FC37F872098DA024677E65 /* AMapNaviRoute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRoute.h; path = AMapNaviKit.framework/Headers/AMapNaviRoute.h; sourceTree = "<group>"; };
+		8E6FBD5AF2BE7B9A2553F9B08CF8CF32 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		8EAF4B7933DCE7778FCACB1ACD243F42 /* AMapGeoFenceError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceError.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceError.h; sourceTree = "<group>"; };
+		90A79E3EBB13CEFDEA4CFA0BA3CC4727 /* AMapNaviRideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideView.h; path = AMapNaviKit.framework/Headers/AMapNaviRideView.h; sourceTree = "<group>"; };
+		912D0F74B004FAEECB19AD242766829D /* ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifierProtocol.swift; path = Library/Core/ReuseIdentifierProtocol.swift; sourceTree = "<group>"; };
+		9194BCD201E72853B67BA817BD945546 /* NibResource+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NibResource+UIKit.swift"; path = "Library/UIKit/NibResource+UIKit.swift"; sourceTree = "<group>"; };
+		92AF15B5C831466BBEC8A53E77490B23 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9431B5F310FA24086FFF9D6C4BC185F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97F4B345DCD2084F2F6DE740BE0D1FC7 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationRegionObj.h; path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h; sourceTree = "<group>"; };
-		9C7B0EB7327F7794C54904B06590BE17 /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = Library/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
-		9CD05B0A6DF4C29A2102AF7A52EE0EC9 /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
-		A42672FEB8343674DAC1E2F89EDF9FDF /* MATraceLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceLocation.h; path = MAMapKit.framework/Headers/MATraceLocation.h; sourceTree = "<group>"; };
-		A48D746B17CD02B6E02BA5FDAF46BAFA /* MAOverlayPathRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOverlayPathRenderer.h; path = MAMapKit.framework/Headers/MAOverlayPathRenderer.h; sourceTree = "<group>"; };
-		A6328EDBC9AABC0EA645380782369151 /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
-		A715B818FE252E720EBB490C3D9D8CE7 /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
-		A8FF691B84F30DE929465670B9341972 /* AMapNaviWalkView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkView.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkView.h; sourceTree = "<group>"; };
-		AD4663AB8B158C62A6CE6490F772EC96 /* MAMapStatus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapStatus.h; path = MAMapKit.framework/Headers/MAMapStatus.h; sourceTree = "<group>"; };
-		ADD579CCFF0C5EBAF6E1B7DC0FB6405A /* Identifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Identifier.swift; path = Library/Core/Identifier.swift; sourceTree = "<group>"; };
-		AF1D41ACA4165AC4769B001E863114AD /* MAGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeometry.h; path = MAMapKit.framework/Headers/MAGeometry.h; sourceTree = "<group>"; };
-		AF7AD56085B31E5D4141D23D36A534BD /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
-		B14C860FB70A230C3D10F5927A0073AF /* AMapURLSearchType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchType.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchType.h; sourceTree = "<group>"; };
-		B4F9A571E6503489F5ADB6088F72EC89 /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
-		BAA7CE067C76F65CDC0EB4E8ED31C144 /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
-		BC3E1DAFC1C4EE1EFD57A14A51A4C6AB /* AMapLocationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationVersion.h; path = AMapLocationKit.framework/Headers/AMapLocationVersion.h; sourceTree = "<group>"; };
-		BE64CF9DDD536DCF822D71653CCAEDA1 /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
-		BE8EE60283637D9741FB842556BCC1A7 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
-		C015B99B22F7138783A772B66C3713E3 /* MAIndoorInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAIndoorInfo.h; path = MAMapKit.framework/Headers/MAIndoorInfo.h; sourceTree = "<group>"; };
-		C2CB81C22FD594F70C280A57F74A592A /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
+		95DCC2F0B336BB237614625677A3EBAD /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
+		98C93DF3B5B7491F11F3DD6CEBE07256 /* AMapNaviInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviInfo.h; path = AMapNaviKit.framework/Headers/AMapNaviInfo.h; sourceTree = "<group>"; };
+		9959B9CB3D327A258C77828EE71B9796 /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
+		9A2F4EBB1BC90013CB729E638CF75730 /* AMapNaviDriveDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveDataRepresentable.h; sourceTree = "<group>"; };
+		9A820E52DCE5DC0E4BCE43FCA19026AD /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
+		9B224EBB2FA45B38CC69B59F2A82243C /* R.swift.Library.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = R.swift.Library.modulemap; sourceTree = "<group>"; };
+		9DD0B7FE90238F3EAE447A35B99C6244 /* AMapLocationRegionObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationRegionObj.h; path = AMapLocationKit.framework/Headers/AMapLocationRegionObj.h; sourceTree = "<group>"; };
+		9EC40382BE7AF0417F0B722ED3FC9B9F /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		9FF15E2821C81739ECE4B8A0AE260AE7 /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
+		A23C2871E1654604F1118961FAA19AED /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
+		A2845C31C7AFEC04E5C6CA5B2B43A4E8 /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
+		A2A63C2F100F98EA5B6BE74E08B7670E /* FontResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = Library/Core/FontResource.swift; sourceTree = "<group>"; };
+		A2DF804F3D100ECA8109277144091A2F /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
+		A37F2A3E94C5A005C5C63E0AA52B4DFF /* MAAnimatedAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnimatedAnnotation.h; path = MAMapKit.framework/Headers/MAAnimatedAnnotation.h; sourceTree = "<group>"; };
+		A686E91FB1434B66F780A7A146E1A8D5 /* MAMultiPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPolyline.h; path = MAMapKit.framework/Headers/MAMultiPolyline.h; sourceTree = "<group>"; };
+		A71ECF6F3009A0E7C2D64F738B31373A /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		A78D21875D440AC589F923ABF5F54241 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; path = "Library/UIKit/TypedStoryboardSegueInfo+UIStoryboardSegue.swift"; sourceTree = "<group>"; };
+		A8037BA8E52AE852C2DA00EB6BD19EBB /* StoryboardViewControllerResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardViewControllerResource.swift; path = Library/Core/StoryboardViewControllerResource.swift; sourceTree = "<group>"; };
+		A83908EF5BD3D8404899571C3601BFD2 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DropDown.modulemap; sourceTree = "<group>"; };
+		AB53F6C7FA16392ED220EE648A47F71E /* MAOfflineCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineCity.h; path = MAMapKit.framework/Headers/MAOfflineCity.h; sourceTree = "<group>"; };
+		ABDE2C39C1C460BEA1D165417F44F016 /* MALineDrawType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MALineDrawType.h; path = MAMapKit.framework/Headers/MALineDrawType.h; sourceTree = "<group>"; };
+		ACA3360A5B2CF882465A10881BCE91B6 /* MAMultiPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPoint.h; path = MAMapKit.framework/Headers/MAMultiPoint.h; sourceTree = "<group>"; };
+		AD6590FAF3AA75E7B31AFD3FC5263822 /* MAOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemMunicipality.h; path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h; sourceTree = "<group>"; };
+		ADA662484CF4AF4F73E426DE3EEB2095 /* MAPolygon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygon.h; path = MAMapKit.framework/Headers/MAPolygon.h; sourceTree = "<group>"; };
+		AF514531D3D2F39B4A0061FD8B82A332 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
+		B07A788BC4361960DD78F9A40712512A /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
+		B112F55DEE9513AE370E215BA5C110DB /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = Library/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
+		B4020D47BD4957CD6C640A1BE5E2A819 /* AMapNavi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = AMapNavi.bundle; path = AMapNaviKit.framework/AMapNavi.bundle; sourceTree = "<group>"; };
+		B4EBAB30F008722DD9E83CB857B1FCC7 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Library/Core/StringResource.swift; sourceTree = "<group>"; };
+		B72EC11F2F13AB3DEA76A060B9DC4E31 /* StoryboardResourceWithInitialController+UIKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StoryboardResourceWithInitialController+UIKit.swift"; path = "Library/UIKit/StoryboardResourceWithInitialController+UIKit.swift"; sourceTree = "<group>"; };
+		B73C494CC5B9F8862B4BC82E359A6EFF /* AMapNaviDriveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveView.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveView.h; sourceTree = "<group>"; };
+		B9103C702EE00FD4EB62660FBFC4257E /* UIImage+ImageResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImage+ImageResource.swift"; path = "Library/UIKit/UIImage+ImageResource.swift"; sourceTree = "<group>"; };
+		B9D8FC6BD2F56ABDAAB08395933081E8 /* AMapNearbySearchManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbySearchManager.h; path = AMapSearchKit.framework/Headers/AMapNearbySearchManager.h; sourceTree = "<group>"; };
+		BA83A1CA01F75F54A5FA022666EFBE63 /* AMapURLSearchConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearchConfig.h; path = AMapFoundationKit.framework/Headers/AMapURLSearchConfig.h; sourceTree = "<group>"; };
+		BC86A32BFABCA18F267BC5017055ED0E /* R.swift.Library-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "R.swift.Library-prefix.pch"; sourceTree = "<group>"; };
+		C168C011FD6308EEB6FB0BB884346354 /* Foundation+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Foundation+Migration.swift"; path = "Library/Foundation/Foundation+Migration.swift"; sourceTree = "<group>"; };
 		C2ECE6E9A9D0851B884EB3DB5B4143D8 /* Pods-Hydrant.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hydrant.debug.xcconfig"; sourceTree = "<group>"; };
-		C3FFE37926A1E7B3D2B3AB41129FA383 /* AMapNaviHUDView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviHUDView.h; path = AMapNaviKit.framework/Headers/AMapNaviHUDView.h; sourceTree = "<group>"; };
-		C600273A5C11CF9FF4FEFA9A5C4479D0 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
-		C8084051D7AE74B9487BF125331B3F56 /* MATileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlay.h; path = MAMapKit.framework/Headers/MATileOverlay.h; sourceTree = "<group>"; };
+		C39B298E4E19F05BA81587A0A9E4382D /* MACircle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircle.h; path = MAMapKit.framework/Headers/MACircle.h; sourceTree = "<group>"; };
+		C4BCD8DBE08193781B69B8B99643A9FE /* R.swift.Library.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = R.swift.Library.xcconfig; sourceTree = "<group>"; };
+		C82F9CEB97A0FBE60935A881E805019C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+StoryboardSegueIdentifierProtocol.swift"; path = "Library/UIKit/UIViewController+StoryboardSegueIdentifierProtocol.swift"; sourceTree = "<group>"; };
+		C94AEAF36F1BF54AB9F50516C6A9708A /* UITableView+ReuseIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+ReuseIdentifierProtocol.swift"; path = "Library/UIKit/UITableView+ReuseIdentifierProtocol.swift"; sourceTree = "<group>"; };
 		CA09BDE0EF2381B6A1F1BD9AC964DEDB /* Pods-Hydrant-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hydrant-umbrella.h"; sourceTree = "<group>"; };
-		CB3253F5961B696175041D49A9D67A56 /* UIKit+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Migration.swift"; path = "Library/UIKit/UIKit+Migration.swift"; sourceTree = "<group>"; };
-		CB7E5446994277F98D0085823DE036A4 /* MAConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAConfig.h; path = MAMapKit.framework/Headers/MAConfig.h; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CD44C5F88F448D03F2296FE1F3987790 /* AMapNaviRideView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRideView.h; path = AMapNaviKit.framework/Headers/AMapNaviRideView.h; sourceTree = "<group>"; };
-		CD5782B7916435CB00310F2BFFA4EEEA /* AMapNaviDriveView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveView.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveView.h; sourceTree = "<group>"; };
-		CF1EFBC7C487BDDDDAA39B454C7AC059 /* AMapNearbyUploadInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNearbyUploadInfo.h; path = AMapSearchKit.framework/Headers/AMapNearbyUploadInfo.h; sourceTree = "<group>"; };
-		D0CDF7BA77DB227E225DB8BB208AE8AF /* Pods_Hydrant.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hydrant.framework; path = "Pods-Hydrant.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2125B8515E146FF3667E6832F206111 /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
-		D774D7684B46DA8A751ED735BE555E14 /* AMapNaviWalkManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkManager.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkManager.h; sourceTree = "<group>"; };
-		D7CCC77FA977DC5CC5A9E1D606E85E90 /* UIViewController+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+NibResource.swift"; path = "Library/UIKit/UIViewController+NibResource.swift"; sourceTree = "<group>"; };
-		D97B2807C34B0370F873E675D50851DD /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
-		D9FC16E96F969F58222F9F154701F5B0 /* StoryboardSegueIdentifierProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StoryboardSegueIdentifierProtocol.swift; path = Library/Core/StoryboardSegueIdentifierProtocol.swift; sourceTree = "<group>"; };
-		DC8424C1ECFCC7B82CD8271C83A03DF8 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
-		DDB7CCF8F8CF5F5DEA6621A1A6C14521 /* AMapFoundationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapFoundationKit.framework; sourceTree = "<group>"; };
-		E0779FA4A68E2B7841476D41D4AADFCE /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
-		E221256307BC32B717B2B217091EAAA6 /* MAHeatMapTileOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAHeatMapTileOverlay.h; path = MAMapKit.framework/Headers/MAHeatMapTileOverlay.h; sourceTree = "<group>"; };
-		E2832FC312BCA706769E77F369E61018 /* StringResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringResource.swift; path = Library/Core/StringResource.swift; sourceTree = "<group>"; };
-		E29C9672A81FA6B798A4C83D01AE91E5 /* MAAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationView.h; path = MAMapKit.framework/Headers/MAAnnotationView.h; sourceTree = "<group>"; };
-		E4BA08C0EFA2512C5AE0F1961D79FE4C /* MATileOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATileOverlayRenderer.h; path = MAMapKit.framework/Headers/MATileOverlayRenderer.h; sourceTree = "<group>"; };
-		E55FC45FA2BA989A5938E802B9A96AC1 /* AMapNaviKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviKit.h; path = AMapNaviKit.framework/Headers/AMapNaviKit.h; sourceTree = "<group>"; };
-		E66C63852B3BAE720BE85D7CB4DCA6F3 /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
-		E6D60A8F28CC9DEFD72E71FC2F108180 /* AMapSearchKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapSearchKit.framework; sourceTree = "<group>"; };
-		E7B10E02FF9A6F15895C90CAE142C5F6 /* AMapSearchError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchError.h; path = AMapSearchKit.framework/Headers/AMapSearchError.h; sourceTree = "<group>"; };
-		E9299BA39738D53C0706B061EC9E72C4 /* R.swift.Library-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "R.swift.Library-dummy.m"; sourceTree = "<group>"; };
-		EB780AF7BD7B8DADAD3177DEEA20E645 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
-		EE530BDD0AE8CE0CAA846874DA106172 /* MAOfflineItemMunicipality.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemMunicipality.h; path = MAMapKit.framework/Headers/MAOfflineItemMunicipality.h; sourceTree = "<group>"; };
-		EE67ADF45639B22A91551CF1FCCFFA85 /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
+		CC26814923D7F651C06C4EC5A93B74FC /* AMapURLSearch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapURLSearch.h; path = AMapFoundationKit.framework/Headers/AMapURLSearch.h; sourceTree = "<group>"; };
+		CEC5792323010FB8DED24DD5EC1C9B51 /* AMapCommonObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapCommonObj.h; path = AMapSearchKit.framework/Headers/AMapCommonObj.h; sourceTree = "<group>"; };
+		CF6D3B44E3AA9AA0F4056BBADC7ED10B /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Rswift.framework; path = R.swift.Library.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB8CDA22C25AD548FD5615D12F7A08A /* MAMapKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMapKit.h; path = MAMapKit.framework/Headers/MAMapKit.h; sourceTree = "<group>"; };
+		D01E2DFED2738BE37B42D028E436F17A /* AMapNaviWalkDataRepresentable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviWalkDataRepresentable.h; path = AMapNaviKit.framework/Headers/AMapNaviWalkDataRepresentable.h; sourceTree = "<group>"; };
+		D2774E4A11161536E63FDBE970747771 /* AMapNaviRoutePolylineOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviRoutePolylineOption.h; path = AMapNaviKit.framework/Headers/AMapNaviRoutePolylineOption.h; sourceTree = "<group>"; };
+		D81546973E7C0E17B4550F7DA47EFD2D /* Validatable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validatable.swift; path = Library/Core/Validatable.swift; sourceTree = "<group>"; };
+		D8C02F60FF6860DA69CA013D73A9E7A5 /* AMapLocationKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapLocationKit.framework; sourceTree = "<group>"; };
+		D9BE8385F766A27AB0376983B504CE39 /* UIKit+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Migration.swift"; path = "Library/UIKit/UIKit+Migration.swift"; sourceTree = "<group>"; };
+		DBD2A65BED3DA7B7181191C8A2ACA4CC /* MACircleRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACircleRenderer.h; path = MAMapKit.framework/Headers/MACircleRenderer.h; sourceTree = "<group>"; };
+		DD1CAA528187D5A96EF2927EBB5BC2F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD84E963F5E7EC71D07F2097CDF6F780 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		DF5F0907570DC2EE05DC75A23E0B610B /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
+		DFE068C349F47A963D5F464B86F347D2 /* AMapNaviBaseManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviBaseManager.h; path = AMapNaviKit.framework/Headers/AMapNaviBaseManager.h; sourceTree = "<group>"; };
+		E26374625E900EF73E3A10DD00677BC3 /* AMapNaviVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviVersion.h; path = AMapNaviKit.framework/Headers/AMapNaviVersion.h; sourceTree = "<group>"; };
+		E6AD511DE0A12BF59468754B00E81939 /* MAOfflineItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItem.h; path = MAMapKit.framework/Headers/MAOfflineItem.h; sourceTree = "<group>"; };
+		ED2561E02B85F093D704F0CF8B6F709F /* NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibResource.swift; path = Library/Core/NibResource.swift; sourceTree = "<group>"; };
 		EF21C250DB801362317673F248CEC6B6 /* Pods-Hydrant-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hydrant-resources.sh"; sourceTree = "<group>"; };
-		EFD58F050FE7432114DDDF6505FAB1FC /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
-		F1A10824EC737AC3978C61941D46F93B /* FileResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FileResource.swift; path = Library/Core/FileResource.swift; sourceTree = "<group>"; };
-		F1B46F7E4E9B504C811DB35E4B40F880 /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
-		FDF466E70156761B38BC7C8B71A334E3 /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
-		FF5296D54CE74E8B008D2ABB1A0820DC /* Core+Migration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Core+Migration.swift"; path = "Library/Core/Core+Migration.swift"; sourceTree = "<group>"; };
+		EFA707A1D4BCFC2F514C1DBDEC97AC55 /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
+		F4E8C4F9D1A448E6C921F31F4D2F71C8 /* AMapGeoFenceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapGeoFenceManager.h; path = AMapLocationKit.framework/Headers/AMapGeoFenceManager.h; sourceTree = "<group>"; };
+		F4EDD803257F23FD12BE47E1BDCE6331 /* UINib+NibResource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UINib+NibResource.swift"; path = "Library/UIKit/UINib+NibResource.swift"; sourceTree = "<group>"; };
+		F630EBCD744A5845BBFD27F9067E93D3 /* AMapFoundationVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationVersion.h; path = AMapFoundationKit.framework/Headers/AMapFoundationVersion.h; sourceTree = "<group>"; };
+		F91DACF8A48A4B1CD51F9D8F0F048470 /* AMapNaviKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AMapNaviKit.framework; sourceTree = "<group>"; };
+		FB2A9BD85133B9395C93546DF3ABA40F /* MAGeodesicPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGeodesicPolyline.h; path = MAMapKit.framework/Headers/MAGeodesicPolyline.h; sourceTree = "<group>"; };
+		FBD7CBCF6DDD511CF8273C3D4767D679 /* MAPinAnnotationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPinAnnotationView.h; path = MAMapKit.framework/Headers/MAPinAnnotationView.h; sourceTree = "<group>"; };
+		FCBE70D0DF2155F21C759A8165470989 /* MATraceManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATraceManager.h; path = MAMapKit.framework/Headers/MATraceManager.h; sourceTree = "<group>"; };
+		FD19277813310CA799F341E3B86605DE /* MAPolyline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolyline.h; path = MAMapKit.framework/Headers/MAPolyline.h; sourceTree = "<group>"; };
+		FDE29234B3F9E193A8884C37AEEC86FC /* AMapNaviDriveManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapNaviDriveManager.h; path = AMapNaviKit.framework/Headers/AMapNaviDriveManager.h; sourceTree = "<group>"; };
+		FE4C7776E50A692656060B0F306C5502 /* AMapLocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapLocationManager.h; path = AMapLocationKit.framework/Headers/AMapLocationManager.h; sourceTree = "<group>"; };
 		FF94B08ACD75645C2014923B5EE44C03 /* Pods-Hydrant.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Hydrant.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B59336712FD1BA76A1397477376C2733 /* Frameworks */ = {
+		3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				276A499A0768D8F8D00FC372312C4E10 /* Foundation.framework in Frameworks */,
+				9DAA4939B8EADFC46CD301E82D16D378 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F06C6ED5F9D93A317F07CF6C3B32FAD0 /* Frameworks */ = {
+		52013DF048369CAAFD1B3659D56331B1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FCDA10889727A742FA4F554DF8CA77C2 /* Foundation.framework in Frameworks */,
+				2E792FFC78522102D13681128367E491 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66229959A0503AF225C9C3EFEC973EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3083DBC05573E2B46C9F9DE07B5EBA5B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00BB9EEF3EC5BF763A2D69ED6A84D7CD /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4C5FFAA535F7D3C632B260E707F1104E /* AMapNavi.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		0AF06E2BEACCAB09C2E1EF5606C787E7 /* Pods-Hydrant */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,137 +280,85 @@
 			path = "Target Support Files/Pods-Hydrant";
 			sourceTree = "<group>";
 		};
-		2D2BE8BF270D1AD197E22520199465EE /* Products */ = {
+		2AA3CAA17883A8C958AAF91810CDB3F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D0CDF7BA77DB227E225DB8BB208AE8AF /* Pods_Hydrant.framework */,
-				203859B10B5075271996CF93AEB5E3BE /* Rswift.framework */,
+				5A7DFA0A4088D09D549429768E4433A4 /* DropDown.framework */,
+				1F43A8A53C97FD2C2B2107F727B95D29 /* Pods_Hydrant.framework */,
+				CF6D3B44E3AA9AA0F4056BBADC7ED10B /* Rswift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2F8AB6C609CD7337172D734CB97BFF2C /* R.swift.Library */ = {
+		2EC4F2E20A8F271B6EF06F2D7A7909FA /* AMapSearch-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				828BD4E4EDDF3BAEC69E3B50FF52FF90 /* Bundle+FileResource.swift */,
-				4C4D3F06A75BCFC9BAA8C1E832D28951 /* ColorResource.swift */,
-				5CCA2B488101D74E313D88FBC50C8170 /* ColorResource+UIKit.swift */,
-				FF5296D54CE74E8B008D2ABB1A0820DC /* Core+Migration.swift */,
-				06B71D0A413ED9E75A4648AB3CBA6EF2 /* Data+FileResource.swift */,
-				F1A10824EC737AC3978C61941D46F93B /* FileResource.swift */,
-				0E3461C703C1C7B4EE58E5ECC550BD0E /* FontResource.swift */,
-				689EF2462E6E8C85441CE1790C6C2D10 /* Foundation+Migration.swift */,
-				ADD579CCFF0C5EBAF6E1B7DC0FB6405A /* Identifier.swift */,
-				224DC9EB6205840B708B74D46EE60C6D /* ImageResource.swift */,
-				924EDB280A7E5A8A6AE0911F3627AEBC /* NibResource.swift */,
-				5B3959FB82E5410E7B9DA37CD3AA7D64 /* NibResource+UIKit.swift */,
-				43E8B94A888C281491884ADD44EAD207 /* ReuseIdentifierProtocol.swift */,
-				6B4A59DEEF68680802B733A86C979DD2 /* StoryboardResource.swift */,
-				80A3D875254619E01C3772BE6E30616D /* StoryboardResourceWithInitialController+UIKit.swift */,
-				D9FC16E96F969F58222F9F154701F5B0 /* StoryboardSegueIdentifierProtocol.swift */,
-				9C7B0EB7327F7794C54904B06590BE17 /* StoryboardViewControllerResource.swift */,
-				E2832FC312BCA706769E77F369E61018 /* StringResource.swift */,
-				BE8EE60283637D9741FB842556BCC1A7 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
-				70F1A3499C556851EB4AD2A6B1733BCE /* UICollectionView+ReuseIdentifierProtocol.swift */,
-				8354CCDD81E062A9E346F679D2FDD0E1 /* UIFont+FontResource.swift */,
-				62FC705FD17717C5D1D22A278813FA87 /* UIImage+ImageResource.swift */,
-				CB3253F5961B696175041D49A9D67A56 /* UIKit+Migration.swift */,
-				BE64CF9DDD536DCF822D71653CCAEDA1 /* UINib+NibResource.swift */,
-				382EF3E0B47B46CFB296E2FD09A708D9 /* UIStoryboard+StoryboardResource.swift */,
-				51D33B6A3DDD52F07BE7C28D16326D66 /* UIStoryboard+StoryboardViewControllerResource.swift */,
-				7733ACF30D7FBAF17D8FF4DA675E414A /* UITableView+ReuseIdentifierProtocol.swift */,
-				D7CCC77FA977DC5CC5A9E1D606E85E90 /* UIViewController+NibResource.swift */,
-				60EE84BAECE6A279B88A121E4CCD7EDC /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
-				BAA7CE067C76F65CDC0EB4E8ED31C144 /* Validatable.swift */,
-				B4505B7A56B172BCF72C6A12586FC88F /* Support Files */,
+				CEC5792323010FB8DED24DD5EC1C9B51 /* AMapCommonObj.h */,
+				B9D8FC6BD2F56ABDAAB08395933081E8 /* AMapNearbySearchManager.h */,
+				6B4533336E28A1E0E3698F14281A0D41 /* AMapNearbyUploadInfo.h */,
+				73F9DB34BEBC373CA10BF096B948296D /* AMapSearchAPI.h */,
+				72DAF144DF43C2AC80AB6235A8B1C8CE /* AMapSearchError.h */,
+				9A820E52DCE5DC0E4BCE43FCA19026AD /* AMapSearchKit.h */,
+				5091B3B7045EE0ADA7A00EFFABCCC5C3 /* AMapSearchObj.h */,
+				4725433F986790B547D9CABE06810A65 /* AMapSearchVersion.h */,
+				A51BEB656AD33C4FA1A739D016AD67BB /* Frameworks */,
 			);
-			name = R.swift.Library;
-			path = R.swift.Library;
+			name = "AMapSearch-NO-IDFA";
+			path = "AMapSearch-NO-IDFA";
 			sourceTree = "<group>";
 		};
-		3B953499A87DE708783FB24CAF4689B1 /* Frameworks */ = {
+		39D9263DB602B3C97B105931907797B1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E6D60A8F28CC9DEFD72E71FC2F108180 /* AMapSearchKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3BA2608F873C6B137DD4A3E5D83A9FD6 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DDB7CCF8F8CF5F5DEA6621A1A6C14521 /* AMapFoundationKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		55EACDFFD4FBC1E7BA5783B19C1A1C52 /* R.swift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = R.swift;
-			path = R.swift;
-			sourceTree = "<group>";
-		};
-		61FBB0DA3962F7F28C2D6651CB7423EF /* AMap3DMap-NO-IDFA */ = {
-			isa = PBXGroup;
-			children = (
-				D2125B8515E146FF3667E6832F206111 /* MAAnnotation.h */,
-				E29C9672A81FA6B798A4C83D01AE91E5 /* MAAnnotationView.h */,
-				2B3F0F7B77F62C54C0CD6E5A7CD433BA /* MACircle.h */,
-				B4F9A571E6503489F5ADB6088F72EC89 /* MACircleRenderer.h */,
-				CB7E5446994277F98D0085823DE036A4 /* MAConfig.h */,
-				0B47AC4FD53FC1D8E4CBBF9D745266B3 /* MAGeodesicPolyline.h */,
-				AF1D41ACA4165AC4769B001E863114AD /* MAGeometry.h */,
-				310079413E046BB53061F22EC2CD64EF /* MAGroundOverlay.h */,
-				FDF466E70156761B38BC7C8B71A334E3 /* MAGroundOverlayRenderer.h */,
-				E221256307BC32B717B2B217091EAAA6 /* MAHeatMapTileOverlay.h */,
-				C015B99B22F7138783A772B66C3713E3 /* MAIndoorInfo.h */,
-				473503DB9C8A9CB818B383D79992F97C /* MALineDrawType.h */,
-				803FCFCC04C3EF91A68F38F97A366937 /* MAMapKit.h */,
-				AD4663AB8B158C62A6CE6490F772EC96 /* MAMapStatus.h */,
-				20EF0F65C25CAF68A7E9B530EA8917E4 /* MAMapVersion.h */,
-				8E85A7EEAAE236E3BA8B6623556AA4FD /* MAMapView.h */,
-				71DD80062235B647AF4B08DEFC6BFD73 /* MAMultiColoredPolylineRenderer.h */,
-				1E72AAF2D07C95D29EEB18B2E2D1A97B /* MAMultiPoint.h */,
-				740CBAB59BD968EA905CDED9405D935F /* MAMultiPolyline.h */,
-				3E137BB8690240DB06A3C19155E931D2 /* MAMultiTexturePolylineRenderer.h */,
-				9CD05B0A6DF4C29A2102AF7A52EE0EC9 /* MAOfflineCity.h */,
-				1BF638DCBC0131EF534ABAD72A5CB0DC /* MAOfflineItem.h */,
-				E66C63852B3BAE720BE85D7CB4DCA6F3 /* MAOfflineItemCommonCity.h */,
-				EE530BDD0AE8CE0CAA846874DA106172 /* MAOfflineItemMunicipality.h */,
-				A6328EDBC9AABC0EA645380782369151 /* MAOfflineItemNationWide.h */,
-				C2CB81C22FD594F70C280A57F74A592A /* MAOfflineMap.h */,
-				7297119F177C00D8873C3DD75033A968 /* MAOfflineProvince.h */,
-				04AD6517090EB409F845F15F50BE2F68 /* MAOverlay.h */,
-				A48D746B17CD02B6E02BA5FDAF46BAFA /* MAOverlayPathRenderer.h */,
-				7BBC8E6A645DAAE9987B26BF384A867A /* MAOverlayRenderer.h */,
-				AF7AD56085B31E5D4141D23D36A534BD /* MAPinAnnotationView.h */,
-				EE67ADF45639B22A91551CF1FCCFFA85 /* MAPointAnnotation.h */,
-				19081B52CBFB8BB6ABFE0BA0EE6A895E /* MAPolygon.h */,
-				475AFE51ABD6423A6F095B8F30FA960C /* MAPolygonRenderer.h */,
-				35692B373A199D4DA651B9A3A57A443E /* MAPolyline.h */,
-				EB780AF7BD7B8DADAD3177DEEA20E645 /* MAPolylineRenderer.h */,
-				3A33400003107284A579685E54456E87 /* MAShape.h */,
-				C8084051D7AE74B9487BF125331B3F56 /* MATileOverlay.h */,
-				E4BA08C0EFA2512C5AE0F1961D79FE4C /* MATileOverlayRenderer.h */,
-				060F5069D826DDD1B223BC28A24D7BF1 /* MATouchPoi.h */,
-				A42672FEB8343674DAC1E2F89EDF9FDF /* MATraceLocation.h */,
-				08D847BC9304C8DCFEC6FD79D2FA6211 /* MATraceManager.h */,
-				51328B421EC2836D6B6A630C6F113833 /* MAUserLocation.h */,
-				C714DB9BECC7793C3E289A23F7D83393 /* Frameworks */,
-				7182FB8F8E08D1421DCC8E76D91941A1 /* Resources */,
-			);
-			name = "AMap3DMap-NO-IDFA";
-			path = "AMap3DMap-NO-IDFA";
-			sourceTree = "<group>";
-		};
-		7182FB8F8E08D1421DCC8E76D91941A1 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				7F89A2096188B0711F136923F88A6107 /* AMap.bundle */,
+				A71ECF6F3009A0E7C2D64F738B31373A /* DropDownCell.xib */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		45AB0A6CC384E5F1902887B85A389788 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4020D47BD4957CD6C640A1BE5E2A819 /* AMapNavi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4BB29E45D0926942D4E071755ADD1E51 /* AMapFoundation-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				DF5F0907570DC2EE05DC75A23E0B610B /* AMapFoundationKit.h */,
+				F630EBCD744A5845BBFD27F9067E93D3 /* AMapFoundationVersion.h */,
+				27128024354CCB7F36695ED7D32629C5 /* AMapServices.h */,
+				CC26814923D7F651C06C4EC5A93B74FC /* AMapURLSearch.h */,
+				BA83A1CA01F75F54A5FA022666EFBE63 /* AMapURLSearchConfig.h */,
+				7F57C69677C3BBE5538A5713264EEFD1 /* AMapURLSearchType.h */,
+				1BF9372FB85E8EA5A46A8EAF4B182541 /* AMapUtility.h */,
+				C175DC48D02000DDF3664AD280CDFAA6 /* Frameworks */,
+			);
+			name = "AMapFoundation-NO-IDFA";
+			path = "AMapFoundation-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		6535C63E887ACA52E6D711A11206F6FB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD1CAA528187D5A96EF2927EBB5BC2F3 /* Info.plist */,
+				9B224EBB2FA45B38CC69B59F2A82243C /* R.swift.Library.modulemap */,
+				C4BCD8DBE08193781B69B8B99643A9FE /* R.swift.Library.xcconfig */,
+				802DCBF2A761678CF454554A77E5CD2B /* R.swift.Library-dummy.m */,
+				BC86A32BFABCA18F267BC5017055ED0E /* R.swift.Library-prefix.pch */,
+				5D32BFE969EB9536549E91BEF1EEDDCE /* R.swift.Library-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/R.swift.Library";
+			sourceTree = "<group>";
+		};
+		73651C3E7E8433F926D5D6D9837D8DE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8C02F60FF6860DA69CA013D73A9E7A5 /* AMapLocationKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -384,29 +369,76 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		7C23AA0F4D00430DD6047B97AC8113A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F91DACF8A48A4B1CD51F9D8F0F048470 /* AMapNaviKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C6C23C891785C1AFC2771B4865611934 /* Pods */,
-				2D2BE8BF270D1AD197E22520199465EE /* Products */,
+				A7EBD3AF400A6437C44F84CCF6C7AA5C /* Pods */,
+				2AA3CAA17883A8C958AAF91810CDB3F8 /* Products */,
 				F57CB88B8329DCC0985E1F68E0E0AF1C /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		B4505B7A56B172BCF72C6A12586FC88F /* Support Files */ = {
+		8DC01A4125B12E07F230E72B82ED426D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9431B5F310FA24086FFF9D6C4BC185F2 /* Info.plist */,
-				7F14AB6CCCE07DB9B0DF05E4DA177B3D /* R.swift.Library.modulemap */,
-				55CC835CE1D1F94DB846F98293CA0F32 /* R.swift.Library.xcconfig */,
-				E9299BA39738D53C0706B061EC9E72C4 /* R.swift.Library-dummy.m */,
-				33E8C007FEE8BA96503333BF1937C0FE /* R.swift.Library-prefix.pch */,
-				78C49F30E9CE36FB3C812BE0746D6386 /* R.swift.Library-umbrella.h */,
+				A83908EF5BD3D8404899571C3601BFD2 /* DropDown.modulemap */,
+				0FE03E4CBB81806A7AEC1A12F6B7A39C /* DropDown.xcconfig */,
+				61CC854402A27199D80DE4287C4846C7 /* DropDown-dummy.m */,
+				6B735D11DAFBB0D0CE9C618DBB081E1B /* DropDown-prefix.pch */,
+				DD84E963F5E7EC71D07F2097CDF6F780 /* DropDown-umbrella.h */,
+				54EB718A11BA8D384D8D456B2ED18987 /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/R.swift.Library";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		8E87DF4CC71C7E8F4ADC44629CB13246 /* R.swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = R.swift;
+			path = R.swift;
+			sourceTree = "<group>";
+		};
+		904E28BC63DFB2B764BD378FF8E0E126 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CB5EBC6A5FCF0BF539DEDEF854197D2 /* MAMapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A51BEB656AD33C4FA1A739D016AD67BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92AF15B5C831466BBEC8A53E77490B23 /* AMapSearchKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7EBD3AF400A6437C44F84CCF6C7AA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F46B0700B346793F351DA92A8739171E /* AMap3DMap-NO-IDFA */,
+				4BB29E45D0926942D4E071755ADD1E51 /* AMapFoundation-NO-IDFA */,
+				FAD89D26C7EC73D39CB1BA6DA897934F /* AMapLocation-NO-IDFA */,
+				C0ECDE868B28065C2F7E8EA8D8DCEE8D /* AMapNavi-NO-IDFA */,
+				2EC4F2E20A8F271B6EF06F2D7A7909FA /* AMapSearch-NO-IDFA */,
+				F54966F9F3EBB36853EC2077B81ACEF7 /* DropDown */,
+				8E87DF4CC71C7E8F4ADC44629CB13246 /* R.swift */,
+				D593D01692E85A6B918EA5BC37C7839C /* R.swift.Library */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -417,118 +449,152 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C6C23C891785C1AFC2771B4865611934 /* Pods */ = {
+		C0ECDE868B28065C2F7E8EA8D8DCEE8D /* AMapNavi-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				61FBB0DA3962F7F28C2D6651CB7423EF /* AMap3DMap-NO-IDFA */,
-				D3157C62C528882D6B4A5AA3666C3185 /* AMapFoundation-NO-IDFA */,
-				D2055D8C439C5717C003ACB3526F6839 /* AMapLocation-NO-IDFA */,
-				D0171A5C4831796D029B0AC5AAB2676A /* AMapNavi-NO-IDFA */,
-				E2FDE8BC1DB056E3D688D8A53D5E481A /* AMapSearch-NO-IDFA */,
-				55EACDFFD4FBC1E7BA5783B19C1A1C52 /* R.swift */,
-				2F8AB6C609CD7337172D734CB97BFF2C /* R.swift.Library */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		C714DB9BECC7793C3E289A23F7D83393 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D97B2807C34B0370F873E675D50851DD /* MAMapKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0171A5C4831796D029B0AC5AAB2676A /* AMapNavi-NO-IDFA */ = {
-			isa = PBXGroup;
-			children = (
-				2054BA95F214A1EE89FEBB46A7AC5A54 /* AMapNaviBaseManager.h */,
-				818859D89E05D2DF987339C3208AD2E2 /* AMapNaviCommonObj.h */,
-				568785539625C3847A74C1F4378167B2 /* AMapNaviDriveDataRepresentable.h */,
-				5BBBA33992AD88167A31CA9CC869617A /* AMapNaviDriveManager.h */,
-				CD5782B7916435CB00310F2BFFA4EEEA /* AMapNaviDriveView.h */,
-				C3FFE37926A1E7B3D2B3AB41129FA383 /* AMapNaviHUDView.h */,
-				402A166D788E44BBAA95B9A4CF10E380 /* AMapNaviInfo.h */,
-				E55FC45FA2BA989A5938E802B9A96AC1 /* AMapNaviKit.h */,
-				42E2BE6A096448246E59A59F288A57FF /* AMapNaviLocation.h */,
-				1EE9C7B32674DD774DD7EA8E38922912 /* AMapNaviRideDataRepresentable.h */,
-				362ED42805C8275C1351FCB8EE5E6FE4 /* AMapNaviRideManager.h */,
-				CD44C5F88F448D03F2296FE1F3987790 /* AMapNaviRideView.h */,
-				4EE3020B697302F9E4232F5D7447D10E /* AMapNaviRoute.h */,
-				6362B6E91B31F37A2411FBFA38CA1382 /* AMapNaviRoutePolylineOption.h */,
-				59C95A97A4C1A222D44A031F6468D4DD /* AMapNaviStatisticsInfo.h */,
-				73B04CFAB4B6C9CFAB8B9F4518D5B4A4 /* AMapNaviVersion.h */,
-				11C51067583179BA9A374814B1FF24F1 /* AMapNaviWalkDataRepresentable.h */,
-				D774D7684B46DA8A751ED735BE555E14 /* AMapNaviWalkManager.h */,
-				A8FF691B84F30DE929465670B9341972 /* AMapNaviWalkView.h */,
-				EEA177EFD92AF730B4BADA761B6F1458 /* Frameworks */,
-				00BB9EEF3EC5BF763A2D69ED6A84D7CD /* Resources */,
+				DFE068C349F47A963D5F464B86F347D2 /* AMapNaviBaseManager.h */,
+				36E227B01828CD9933865CFB749F1254 /* AMapNaviCommonObj.h */,
+				9A2F4EBB1BC90013CB729E638CF75730 /* AMapNaviDriveDataRepresentable.h */,
+				FDE29234B3F9E193A8884C37AEEC86FC /* AMapNaviDriveManager.h */,
+				B73C494CC5B9F8862B4BC82E359A6EFF /* AMapNaviDriveView.h */,
+				762D14BFCBD2D07308A2A661452E0766 /* AMapNaviHUDView.h */,
+				98C93DF3B5B7491F11F3DD6CEBE07256 /* AMapNaviInfo.h */,
+				1F91179D2C03B7FEE73D75BD5ED2D74B /* AMapNaviKit.h */,
+				75875149887A8E0EC789FCFDC9B92DB9 /* AMapNaviLocation.h */,
+				7B4642B47864686B6E54B5DEFD72320C /* AMapNaviRideDataRepresentable.h */,
+				182D78F85AE713D6A7294C3B2D0D9CA9 /* AMapNaviRideManager.h */,
+				90A79E3EBB13CEFDEA4CFA0BA3CC4727 /* AMapNaviRideView.h */,
+				887E196709FC37F872098DA024677E65 /* AMapNaviRoute.h */,
+				D2774E4A11161536E63FDBE970747771 /* AMapNaviRoutePolylineOption.h */,
+				04C595A9DB1E56505C502A63FDA32829 /* AMapNaviStatisticsInfo.h */,
+				E26374625E900EF73E3A10DD00677BC3 /* AMapNaviVersion.h */,
+				D01E2DFED2738BE37B42D028E436F17A /* AMapNaviWalkDataRepresentable.h */,
+				35A2479B15805EE62466C421EAE20094 /* AMapNaviWalkManager.h */,
+				7577C40048C1F69BC838626D5A99AC69 /* AMapNaviWalkView.h */,
+				7C23AA0F4D00430DD6047B97AC8113A5 /* Frameworks */,
+				45AB0A6CC384E5F1902887B85A389788 /* Resources */,
 			);
 			name = "AMapNavi-NO-IDFA";
 			path = "AMapNavi-NO-IDFA";
 			sourceTree = "<group>";
 		};
-		D2055D8C439C5717C003ACB3526F6839 /* AMapLocation-NO-IDFA */ = {
+		C175DC48D02000DDF3664AD280CDFAA6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				574175A9196E9694D14A024F96D443FC /* AMapLocationCommonObj.h */,
-				34004D8CD5299E6D0E85ABC7AD636FF5 /* AMapLocationKit.h */,
-				A715B818FE252E720EBB490C3D9D8CE7 /* AMapLocationManager.h */,
-				97F4B345DCD2084F2F6DE740BE0D1FC7 /* AMapLocationRegionObj.h */,
-				BC3E1DAFC1C4EE1EFD57A14A51A4C6AB /* AMapLocationVersion.h */,
-				DCAF79A8F5A4BF496C37144FCA0F8138 /* Frameworks */,
-			);
-			name = "AMapLocation-NO-IDFA";
-			path = "AMapLocation-NO-IDFA";
-			sourceTree = "<group>";
-		};
-		D3157C62C528882D6B4A5AA3666C3185 /* AMapFoundation-NO-IDFA */ = {
-			isa = PBXGroup;
-			children = (
-				F1B46F7E4E9B504C811DB35E4B40F880 /* AMapFoundationKit.h */,
-				22BB8FC3C81E12239825B9363538D35B /* AMapFoundationVersion.h */,
-				79626617C21992845D1C8C2DED908114 /* AMapServices.h */,
-				E0779FA4A68E2B7841476D41D4AADFCE /* AMapURLSearch.h */,
-				84AABB777D0959DF79E1B321E401562A /* AMapURLSearchConfig.h */,
-				B14C860FB70A230C3D10F5927A0073AF /* AMapURLSearchType.h */,
-				C600273A5C11CF9FF4FEFA9A5C4479D0 /* AMapUtility.h */,
-				3BA2608F873C6B137DD4A3E5D83A9FD6 /* Frameworks */,
-			);
-			name = "AMapFoundation-NO-IDFA";
-			path = "AMapFoundation-NO-IDFA";
-			sourceTree = "<group>";
-		};
-		DCAF79A8F5A4BF496C37144FCA0F8138 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				694E9826599CF199FF9C9DCEACE094AE /* AMapLocationKit.framework */,
+				46BA492BB6D1A255AF93AD1AC868E06F /* AMapFoundationKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2FDE8BC1DB056E3D688D8A53D5E481A /* AMapSearch-NO-IDFA */ = {
+		D593D01692E85A6B918EA5BC37C7839C /* R.swift.Library */ = {
 			isa = PBXGroup;
 			children = (
-				47187DCF973C898F1DFF63024E671DE9 /* AMapCommonObj.h */,
-				0FFABF122F81FBF0F6378CE22BAE4E7D /* AMapNearbySearchManager.h */,
-				CF1EFBC7C487BDDDDAA39B454C7AC059 /* AMapNearbyUploadInfo.h */,
-				EFD58F050FE7432114DDDF6505FAB1FC /* AMapSearchAPI.h */,
-				E7B10E02FF9A6F15895C90CAE142C5F6 /* AMapSearchError.h */,
-				817CC3735031C2E95EAF95E901CDDDCC /* AMapSearchKit.h */,
-				78B38474F27D8398915ADE97E2B91887 /* AMapSearchObj.h */,
-				DC8424C1ECFCC7B82CD8271C83A03DF8 /* AMapSearchVersion.h */,
-				3B953499A87DE708783FB24CAF4689B1 /* Frameworks */,
+				53EF0CE7EFE31F92FA0CF0A20F52B598 /* Bundle+FileResource.swift */,
+				1A7008E2BEF9FC4BF1212BC73D0BB5CD /* ColorResource.swift */,
+				35C746BBB9AF5AA5E43FA92210B11D7F /* ColorResource+UIKit.swift */,
+				1BDE98299FFB5FC29BFA99F8A7756478 /* Core+Migration.swift */,
+				23CDAE0A842DDAAF71C54D383F8B5517 /* Data+FileResource.swift */,
+				B07A788BC4361960DD78F9A40712512A /* FileResource.swift */,
+				A2A63C2F100F98EA5B6BE74E08B7670E /* FontResource.swift */,
+				C168C011FD6308EEB6FB0BB884346354 /* Foundation+Migration.swift */,
+				20016B6EFC5FB2B37A5FB46CAB1A3B77 /* Identifier.swift */,
+				2EC7780390E2719EE873067C73EC645D /* ImageResource.swift */,
+				ED2561E02B85F093D704F0CF8B6F709F /* NibResource.swift */,
+				9194BCD201E72853B67BA817BD945546 /* NibResource+UIKit.swift */,
+				912D0F74B004FAEECB19AD242766829D /* ReuseIdentifierProtocol.swift */,
+				0E5BEB9569E88BFA45B307A6521299F3 /* StoryboardResource.swift */,
+				B72EC11F2F13AB3DEA76A060B9DC4E31 /* StoryboardResourceWithInitialController+UIKit.swift */,
+				B112F55DEE9513AE370E215BA5C110DB /* StoryboardSegueIdentifierProtocol.swift */,
+				A8037BA8E52AE852C2DA00EB6BD19EBB /* StoryboardViewControllerResource.swift */,
+				B4EBAB30F008722DD9E83CB857B1FCC7 /* StringResource.swift */,
+				A78D21875D440AC589F923ABF5F54241 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift */,
+				17969F124F00E8694654DC0BCDCACEDE /* UICollectionView+ReuseIdentifierProtocol.swift */,
+				27F111F703DCB998C038CE57C0A5D63C /* UIFont+FontResource.swift */,
+				B9103C702EE00FD4EB62660FBFC4257E /* UIImage+ImageResource.swift */,
+				D9BE8385F766A27AB0376983B504CE39 /* UIKit+Migration.swift */,
+				F4EDD803257F23FD12BE47E1BDCE6331 /* UINib+NibResource.swift */,
+				602F486FD9307B80572B3BEC0ACEC07A /* UIStoryboard+StoryboardResource.swift */,
+				2FB187E78B54022544E69BC1BE19D509 /* UIStoryboard+StoryboardViewControllerResource.swift */,
+				C94AEAF36F1BF54AB9F50516C6A9708A /* UITableView+ReuseIdentifierProtocol.swift */,
+				4F2533FD6325EAFD480ADA6CB486A5F2 /* UIViewController+NibResource.swift */,
+				C82F9CEB97A0FBE60935A881E805019C /* UIViewController+StoryboardSegueIdentifierProtocol.swift */,
+				D81546973E7C0E17B4550F7DA47EFD2D /* Validatable.swift */,
+				6535C63E887ACA52E6D711A11206F6FB /* Support Files */,
 			);
-			name = "AMapSearch-NO-IDFA";
-			path = "AMapSearch-NO-IDFA";
+			name = R.swift.Library;
+			path = R.swift.Library;
 			sourceTree = "<group>";
 		};
-		EEA177EFD92AF730B4BADA761B6F1458 /* Frameworks */ = {
+		F46B0700B346793F351DA92A8739171E /* AMap3DMap-NO-IDFA */ = {
 			isa = PBXGroup;
 			children = (
-				56B4BB1F63E2E5163118532B58266A6E /* AMapNaviKit.framework */,
+				A37F2A3E94C5A005C5C63E0AA52B4DFF /* MAAnimatedAnnotation.h */,
+				234BBEF7D15BD324AA0A53424A4A5359 /* MAAnnotation.h */,
+				4518A9A3A270BD55865E66A08B440FDB /* MAAnnotationMoveAnimation.h */,
+				9959B9CB3D327A258C77828EE71B9796 /* MAAnnotationView.h */,
+				C39B298E4E19F05BA81587A0A9E4382D /* MACircle.h */,
+				DBD2A65BED3DA7B7181191C8A2ACA4CC /* MACircleRenderer.h */,
+				77F601B18507743A34EB1A8982117310 /* MAConfig.h */,
+				FB2A9BD85133B9395C93546DF3ABA40F /* MAGeodesicPolyline.h */,
+				1817CE1BDE58172959E46E490A33A63E /* MAGeometry.h */,
+				49AFC766FF0488FCB550F053A14E3FEF /* MAGroundOverlay.h */,
+				AF514531D3D2F39B4A0061FD8B82A332 /* MAGroundOverlayRenderer.h */,
+				14245F54673E8E6BC3DF845CC179D299 /* MAHeatMapTileOverlay.h */,
+				4C36F847580835B0DAFDF323797F1C8C /* MAIndoorInfo.h */,
+				ABDE2C39C1C460BEA1D165417F44F016 /* MALineDrawType.h */,
+				CFB8CDA22C25AD548FD5615D12F7A08A /* MAMapKit.h */,
+				86894DBC6242244BF848BDD9C2757385 /* MAMapStatus.h */,
+				023C7D6CB7800112BF34795CCC576E5F /* MAMapVersion.h */,
+				5ABDAAF0C78E0C38A84C139DCBF9C9FC /* MAMapView.h */,
+				059837AF8824810882634D119671B97C /* MAMultiColoredPolylineRenderer.h */,
+				ACA3360A5B2CF882465A10881BCE91B6 /* MAMultiPoint.h */,
+				A686E91FB1434B66F780A7A146E1A8D5 /* MAMultiPolyline.h */,
+				4C41AB1E6C81E2CF12ED34E56EDAA14A /* MAMultiTexturePolylineRenderer.h */,
+				AB53F6C7FA16392ED220EE648A47F71E /* MAOfflineCity.h */,
+				E6AD511DE0A12BF59468754B00E81939 /* MAOfflineItem.h */,
+				9FF15E2821C81739ECE4B8A0AE260AE7 /* MAOfflineItemCommonCity.h */,
+				AD6590FAF3AA75E7B31AFD3FC5263822 /* MAOfflineItemMunicipality.h */,
+				A2DF804F3D100ECA8109277144091A2F /* MAOfflineItemNationWide.h */,
+				50253CE996A2AA6430FF642C6FDBB0C0 /* MAOfflineMap.h */,
+				A2845C31C7AFEC04E5C6CA5B2B43A4E8 /* MAOfflineProvince.h */,
+				2AEA1479663BC0AF9BA851AE0B8FA5C0 /* MAOverlay.h */,
+				0B1E37D2535596218ACF2CCDF25AEDFB /* MAOverlayPathRenderer.h */,
+				25B46DADEA4D67AED2FD2BDB536BB84A /* MAOverlayRenderer.h */,
+				FBD7CBCF6DDD511CF8273C3D4767D679 /* MAPinAnnotationView.h */,
+				A23C2871E1654604F1118961FAA19AED /* MAPointAnnotation.h */,
+				ADA662484CF4AF4F73E426DE3EEB2095 /* MAPolygon.h */,
+				03C860C279A8934796BA1B0847C25165 /* MAPolygonRenderer.h */,
+				FD19277813310CA799F341E3B86605DE /* MAPolyline.h */,
+				EFA707A1D4BCFC2F514C1DBDEC97AC55 /* MAPolylineRenderer.h */,
+				6EB2166CE2E38D4431918815306E1A47 /* MAShape.h */,
+				65C3994FA96E2DD7F1AE09A46546FE93 /* MATileOverlay.h */,
+				95DCC2F0B336BB237614625677A3EBAD /* MATileOverlayRenderer.h */,
+				443164939863BF162A5F9DCC761ECEAF /* MATouchPoi.h */,
+				1007D5263A243E649D16C4CD75B16BA2 /* MATraceLocation.h */,
+				FCBE70D0DF2155F21C759A8165470989 /* MATraceManager.h */,
+				6683E87BE00FD21C2067ABE5AAA94CE8 /* MAUserLocation.h */,
+				7D05D3F86B20272E772275171F20AE4E /* MAUserLocationRepresentation.h */,
+				904E28BC63DFB2B764BD378FF8E0E126 /* Frameworks */,
+				F9F29B4A752C052C9416B2DDF3755D10 /* Resources */,
 			);
-			name = Frameworks;
+			name = "AMap3DMap-NO-IDFA";
+			path = "AMap3DMap-NO-IDFA";
+			sourceTree = "<group>";
+		};
+		F54966F9F3EBB36853EC2077B81ACEF7 /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				0B48D5C951C371CF867B3BA544DF39BD /* DPDConstants.swift */,
+				39CA23CB535D58642C77D8B75FA24469 /* DPDKeyboardListener.swift */,
+				28825F9C7186D1406D8D74BEFDBD030F /* DPDUIView+Extension.swift */,
+				8E6FBD5AF2BE7B9A2553F9B08CF8CF32 /* DropDown.swift */,
+				9EC40382BE7AF0417F0B722ED3FC9B9F /* DropDown+Appearance.swift */,
+				25E551D79C88772463F14D9970A34515 /* DropDownCell.swift */,
+				39D9263DB602B3C97B105931907797B1 /* Resources */,
+				8DC01A4125B12E07F230E72B82ED426D /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		F57CB88B8329DCC0985E1F68E0E0AF1C /* Targets Support Files */ = {
@@ -539,35 +605,105 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		F9F29B4A752C052C9416B2DDF3755D10 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				33A7C6DE1440AC073130F66D9019A020 /* AMap.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FAD89D26C7EC73D39CB1BA6DA897934F /* AMapLocation-NO-IDFA */ = {
+			isa = PBXGroup;
+			children = (
+				8EAF4B7933DCE7778FCACB1ACD243F42 /* AMapGeoFenceError.h */,
+				F4E8C4F9D1A448E6C921F31F4D2F71C8 /* AMapGeoFenceManager.h */,
+				77C1962229C1B4F0DBC2917A3DFC6E1E /* AMapGeoFenceRegionObj.h */,
+				53E1FA7F4A9AB58DE11CE64EC8B1121D /* AMapLocationCommonObj.h */,
+				4E3E6FBAE57ECF3206F0794BA1F7E465 /* AMapLocationKit.h */,
+				FE4C7776E50A692656060B0F306C5502 /* AMapLocationManager.h */,
+				9DD0B7FE90238F3EAE447A35B99C6244 /* AMapLocationRegionObj.h */,
+				253FA8D921C053D1FA28938E0730251A /* AMapLocationVersion.h */,
+				73651C3E7E8433F926D5D6D9837D8DE0 /* Frameworks */,
+			);
+			name = "AMapLocation-NO-IDFA";
+			path = "AMapLocation-NO-IDFA";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		837EF2B97B6DE05E32F2ED323E1292B8 /* Headers */ = {
+		1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B90549D9F3B64AC6BBF3D869BC201791 /* R.swift.Library-umbrella.h in Headers */,
+				2E7E74DF0C455B0BC43BFDD1D0163E64 /* DropDown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CC4EEE857692BC65A678B0496E88DD04 /* Headers */ = {
+		21BDA73EEF95A952C09DEA470329B8EB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5406648EE61BC4E40625510EE0267A90 /* Pods-Hydrant-umbrella.h in Headers */,
+				F387EC8F0E0B85ECFE76976065C050F3 /* R.swift.Library-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E01920F9DC44FB4D08D258CE10C4A85E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BC040408C447DA4031D7A2DCB0535BF /* Pods-Hydrant-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D244953B9FC11E746C7F15A6D35AAF7 /* R.swift.Library */ = {
+		5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CDBBA42687DDFD30253D9BE6CF13EE29 /* Build configuration list for PBXNativeTarget "R.swift.Library" */;
+			buildConfigurationList = 45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */;
 			buildPhases = (
-				D1017DEB47BA6320FA422D903FF4E668 /* Sources */,
-				F06C6ED5F9D93A317F07CF6C3B32FAD0 /* Frameworks */,
-				837EF2B97B6DE05E32F2ED323E1292B8 /* Headers */,
+				ED45CA897A4B81CB8204042001D7AEE8 /* Sources */,
+				3FE28484C632D94C9779E4E74AE0BD29 /* Frameworks */,
+				D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */,
+				1904CD5E5CEA9226AFC355E19C3EB159 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 5A7DFA0A4088D09D549429768E4433A4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		80A80D406982DC9EBCF985AD22A5EADD /* Pods-Hydrant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 573F36EF783D278825F8AC41DA811938 /* Build configuration list for PBXNativeTarget "Pods-Hydrant" */;
+			buildPhases = (
+				5809439618AC485F5A042050BAB901B5 /* Sources */,
+				52013DF048369CAAFD1B3659D56331B1 /* Frameworks */,
+				E01920F9DC44FB4D08D258CE10C4A85E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7503AAE1F92D5D265A694F12BEF3CB0F /* PBXTargetDependency */,
+				C2171868E2A7B5BDA256AA9B58F952D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Hydrant";
+			productName = "Pods-Hydrant";
+			productReference = 1F43A8A53C97FD2C2B2107F727B95D29 /* Pods_Hydrant.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C169362E18882C8C325334F820EA3530 /* R.swift.Library */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B489C0BEE0E84FE7F6B1085CE40E9E /* Build configuration list for PBXNativeTarget "R.swift.Library" */;
+			buildPhases = (
+				BB0E4E3E83F80F0614B7D31947A6680F /* Sources */,
+				66229959A0503AF225C9C3EFEC973EB9 /* Frameworks */,
+				21BDA73EEF95A952C09DEA470329B8EB /* Headers */,
 			);
 			buildRules = (
 			);
@@ -575,25 +711,7 @@
 			);
 			name = R.swift.Library;
 			productName = R.swift.Library;
-			productReference = 203859B10B5075271996CF93AEB5E3BE /* Rswift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DEF492A825F54224A44793C81BFCCC29 /* Pods-Hydrant */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FC32C341DF847F7DD810330B48751ED0 /* Build configuration list for PBXNativeTarget "Pods-Hydrant" */;
-			buildPhases = (
-				AF4FB0E6CE86C2AA78C1058010A0F7FC /* Sources */,
-				B59336712FD1BA76A1397477376C2733 /* Frameworks */,
-				CC4EEE857692BC65A678B0496E88DD04 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				CDBE31906334EDDEF2FA6F9A7AFDE3D9 /* PBXTargetDependency */,
-			);
-			name = "Pods-Hydrant";
-			productName = "Pods-Hydrant";
-			productReference = D0CDF7BA77DB227E225DB8BB208AE8AF /* Pods_Hydrant.framework */;
+			productReference = CF6D3B44E3AA9AA0F4056BBADC7ED10B /* Rswift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -613,71 +731,103 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2D2BE8BF270D1AD197E22520199465EE /* Products */;
+			productRefGroup = 2AA3CAA17883A8C958AAF91810CDB3F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DEF492A825F54224A44793C81BFCCC29 /* Pods-Hydrant */,
-				2D244953B9FC11E746C7F15A6D35AAF7 /* R.swift.Library */,
+				5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */,
+				80A80D406982DC9EBCF985AD22A5EADD /* Pods-Hydrant */,
+				C169362E18882C8C325334F820EA3530 /* R.swift.Library */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXSourcesBuildPhase section */
-		AF4FB0E6CE86C2AA78C1058010A0F7FC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+/* Begin PBXResourcesBuildPhase section */
+		D7D924A57BC65B5D41E46B156A8DCF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33AC17117050CDC09C38837D877DB693 /* Pods-Hydrant-dummy.m in Sources */,
+				37C293AEA575D6E5186739D1B07805F2 /* DropDownCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1017DEB47BA6320FA422D903FF4E668 /* Sources */ = {
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5809439618AC485F5A042050BAB901B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE7261D418DBA51320F733519D56042A /* Bundle+FileResource.swift in Sources */,
-				F5F38E51E9DBBA2313ED74876436103C /* ColorResource+UIKit.swift in Sources */,
-				63BF93BF2151A3736E4FA55A127DCDE2 /* ColorResource.swift in Sources */,
-				1F56ADAA85AD4F017E1CDE3FBDEEF24C /* Core+Migration.swift in Sources */,
-				8E8FF6C0AE6294CAAA11234D0B87DAB7 /* Data+FileResource.swift in Sources */,
-				1A4E441B166E6F130EC0AE60C8BD423D /* FileResource.swift in Sources */,
-				F1A750C86E05A7201E30559822F18C33 /* FontResource.swift in Sources */,
-				5542021D44A6EADED4CC28879B8AFB0C /* Foundation+Migration.swift in Sources */,
-				74DC97A324584111739C638E124749DC /* Identifier.swift in Sources */,
-				8EF75B0D45A4840A15B64191E59F3651 /* ImageResource.swift in Sources */,
-				F6DCCAE1DA239D893E435A865CCEBA90 /* NibResource+UIKit.swift in Sources */,
-				5199A9EF1E3A38DF8CD2F7B21037FB2C /* NibResource.swift in Sources */,
-				0276A0F7318BAB5802FCFC273BAAA780 /* R.swift.Library-dummy.m in Sources */,
-				EB30B2B9B27237ACBE1001F6194B8003 /* ReuseIdentifierProtocol.swift in Sources */,
-				A9873A5EFA55F1664C136E66FEEDE9BD /* StoryboardResource.swift in Sources */,
-				45F2E3FF074E66E9DEE5E58134DB6E7A /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
-				504E0F2152EDEBE4D60A14A4E2A03CC9 /* StoryboardSegueIdentifierProtocol.swift in Sources */,
-				6A60A6ABB4B382432EA945CEBCF6C12D /* StoryboardViewControllerResource.swift in Sources */,
-				C7A4C60ED374447E1363186A33AAA136 /* StringResource.swift in Sources */,
-				92C12C72E37B68955DD92682497DA12A /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
-				8960C1738A1D9B8DE63ABAF6B5880706 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
-				BA84C6DC2EB99528F0DC78CC9497EDE2 /* UIFont+FontResource.swift in Sources */,
-				F5731B775EE7BA7CE470912F290A2148 /* UIImage+ImageResource.swift in Sources */,
-				F9FC06982BE878195C5E1E4071EC3CDA /* UIKit+Migration.swift in Sources */,
-				775BB07E0B033A6C0575E767E7262018 /* UINib+NibResource.swift in Sources */,
-				A995EE22A5537DC61BE1D73E7DBD20E4 /* UIStoryboard+StoryboardResource.swift in Sources */,
-				83337425A1B2E6E3960CBA48AEAC956B /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
-				AF6BB324CCDD2FAAFAA3AB9E5FE3B914 /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
-				2D95A55BE354FE4BA556863DEA193B82 /* UIViewController+NibResource.swift in Sources */,
-				903C7546B75F9D5FE71542368641FBC5 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
-				B2EF387C8091A89D0C58F6B49E02E408 /* Validatable.swift in Sources */,
+				4D9429C633BD469988C429A0BC48E699 /* Pods-Hydrant-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0E4E3E83F80F0614B7D31947A6680F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989C478D06DB6C925397CA5D986AB6B7 /* Bundle+FileResource.swift in Sources */,
+				01A6FB4FB1EBF6B9033A44017F3706F4 /* ColorResource+UIKit.swift in Sources */,
+				76F34CE6979CDFF9342556E758AE7031 /* ColorResource.swift in Sources */,
+				2356CCA2E535AA77DF04958DC36710CC /* Core+Migration.swift in Sources */,
+				74F79899A4470C134F059554C7D8157D /* Data+FileResource.swift in Sources */,
+				7F014B158F4052C61B05506322A76B93 /* FileResource.swift in Sources */,
+				EF004AE1DA6BEC45095372C61B4BAAC6 /* FontResource.swift in Sources */,
+				B512DBAFD98A08F9ECE12EBDDE94E9E3 /* Foundation+Migration.swift in Sources */,
+				8D53F36EECA0D645894ABC50F3EE5A89 /* Identifier.swift in Sources */,
+				0E3F61911A7FD6871A96D94016E6967D /* ImageResource.swift in Sources */,
+				86F447942BD0B797FE48B91EC712F96C /* NibResource+UIKit.swift in Sources */,
+				54EB5A2A5DE64E5DB9A2EE9099686CC4 /* NibResource.swift in Sources */,
+				448C79B4A356A977807E0F2436A4ED01 /* R.swift.Library-dummy.m in Sources */,
+				6D1B4F86EB0626BEF77A6E5227501E60 /* ReuseIdentifierProtocol.swift in Sources */,
+				A865A5E3DFE64E276EF2634ED39CB406 /* StoryboardResource.swift in Sources */,
+				10DEC7910CFCE5C8A1A66C3D9499ADCB /* StoryboardResourceWithInitialController+UIKit.swift in Sources */,
+				ECF301A06C245F2F991CF67E5138AFCD /* StoryboardSegueIdentifierProtocol.swift in Sources */,
+				74FEF77B734C7114217B4D035627D6C0 /* StoryboardViewControllerResource.swift in Sources */,
+				8B490169213E1EC2AC401191321003A0 /* StringResource.swift in Sources */,
+				74C79959742C2D70646950DB65F80C58 /* TypedStoryboardSegueInfo+UIStoryboardSegue.swift in Sources */,
+				CB1CE38C091A7DBF27A37AED1876FB50 /* UICollectionView+ReuseIdentifierProtocol.swift in Sources */,
+				26FBE229DA97DA591709696E5970EE4B /* UIFont+FontResource.swift in Sources */,
+				A607812543C7D0CE3FAB964EAE53F6CE /* UIImage+ImageResource.swift in Sources */,
+				34D0D2DAE6E0ECE3E1702A5170F9D6E5 /* UIKit+Migration.swift in Sources */,
+				CC2EAC5A0218AFB033E881619F82B86E /* UINib+NibResource.swift in Sources */,
+				794990852BA917E4B91912EED93F77B9 /* UIStoryboard+StoryboardResource.swift in Sources */,
+				7480E8030BED7AD5A31B7312699221C9 /* UIStoryboard+StoryboardViewControllerResource.swift in Sources */,
+				B0B49E0F1506804D1C7012A0734F9D84 /* UITableView+ReuseIdentifierProtocol.swift in Sources */,
+				03F35F849A5CAB2641B4D9ABC7C81D95 /* UIViewController+NibResource.swift in Sources */,
+				D13D0B4CDCD6887BD0960C63954E0CE3 /* UIViewController+StoryboardSegueIdentifierProtocol.swift in Sources */,
+				85E0EFFEBA3754E40C0D6F5F9D7F6E2A /* Validatable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED45CA897A4B81CB8204042001D7AEE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A812E7811821F66B3B7499F6F1B513BA /* DPDConstants.swift in Sources */,
+				9D0221E27E37CDA9DF26DD3CFA56D75B /* DPDKeyboardListener.swift in Sources */,
+				A401CF18D15DF246F40FAC4E8F06CBC7 /* DPDUIView+Extension.swift in Sources */,
+				442ADADA3215E1E5CA1557E708D4228C /* DropDown+Appearance.swift in Sources */,
+				AC6581D9387744158B44BE683403C3BC /* DropDown-dummy.m in Sources */,
+				02CAE638EF1CEEBD6F5740498F9CA3F8 /* DropDown.swift in Sources */,
+				098F056D90AF9CD3FD60D8A81DF043B6 /* DropDownCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CDBE31906334EDDEF2FA6F9A7AFDE3D9 /* PBXTargetDependency */ = {
+		7503AAE1F92D5D265A694F12BEF3CB0F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = 5168099F2EBFC99A707C03C9EADE01A5 /* DropDown */;
+			targetProxy = A2DC79017972F3BD1140B10272A03C0F /* PBXContainerItemProxy */;
+		};
+		C2171868E2A7B5BDA256AA9B58F952D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = R.swift.Library;
-			target = 2D244953B9FC11E746C7F15A6D35AAF7 /* R.swift.Library */;
-			targetProxy = B2A188A569AE401F3E3E34F4B39EF94E /* PBXContainerItemProxy */;
+			target = C169362E18882C8C325334F820EA3530 /* R.swift.Library */;
+			targetProxy = 0C114BBF9D26E687C62FAF6D58AEEED5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -726,9 +876,74 @@
 			};
 			name = Debug;
 		};
-		44B8F5ADA9D7EF41BFD8DCB45A325803 /* Debug */ = {
+		04ADDA48259B854054D5CA01F6EC9D67 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CC835CE1D1F94DB846F98293CA0F32 /* R.swift.Library.xcconfig */;
+			baseConfigurationReference = 0FE03E4CBB81806A7AEC1A12F6B7A39C /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		166E640816FD8016FF291BD935B20736 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FE03E4CBB81806A7AEC1A12F6B7A39C /* DropDown.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39DB0DD16733C446EB4EF5CF8887FEAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BCD8DBE08193781B69B8B99643A9FE /* R.swift.Library.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -799,7 +1014,39 @@
 			};
 			name = Release;
 		};
-		5E2BE5C8BE7531FC6CB1DCDE539DBFDC /* Debug */ = {
+		6D4B2B664043521AF58192BEB6797DBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4BCD8DBE08193781B69B8B99643A9FE /* R.swift.Library.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Rswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8570887627480BB46356C4936B47C1FD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2ECE6E9A9D0851B884EB3DB5B4143D8 /* Pods-Hydrant.debug.xcconfig */;
 			buildSettings = {
@@ -835,39 +1082,7 @@
 			};
 			name = Debug;
 		};
-		E68C74DD3CA2FFCAC33434DA716842CF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 55CC835CE1D1F94DB846F98293CA0F32 /* R.swift.Library.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/R.swift.Library/R.swift.Library-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/R.swift.Library/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/R.swift.Library/R.swift.Library.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = Rswift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FA59283B473F11CC36D7959C406BC041 /* Release */ = {
+		DE7F652B7D8A82797A55B3543A1A59BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 02EA2D5D434DA456306FB48C5A97A131 /* Pods-Hydrant.release.xcconfig */;
 			buildSettings = {
@@ -914,20 +1129,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CDBBA42687DDFD30253D9BE6CF13EE29 /* Build configuration list for PBXNativeTarget "R.swift.Library" */ = {
+		45143614893062803984DA50AB90C1D5 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				44B8F5ADA9D7EF41BFD8DCB45A325803 /* Debug */,
-				E68C74DD3CA2FFCAC33434DA716842CF /* Release */,
+				04ADDA48259B854054D5CA01F6EC9D67 /* Debug */,
+				166E640816FD8016FF291BD935B20736 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC32C341DF847F7DD810330B48751ED0 /* Build configuration list for PBXNativeTarget "Pods-Hydrant" */ = {
+		573F36EF783D278825F8AC41DA811938 /* Build configuration list for PBXNativeTarget "Pods-Hydrant" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5E2BE5C8BE7531FC6CB1DCDE539DBFDC /* Debug */,
-				FA59283B473F11CC36D7959C406BC041 /* Release */,
+				8570887627480BB46356C4936B47C1FD /* Debug */,
+				DE7F652B7D8A82797A55B3543A1A59BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B489C0BEE0E84FE7F6B1085CE40E9E /* Build configuration list for PBXNativeTarget "R.swift.Library" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39DB0DD16733C446EB4EF5CF8887FEAB /* Debug */,
+				6D4B2B664043521AF58192BEB6797DBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

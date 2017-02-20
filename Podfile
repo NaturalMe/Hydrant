@@ -8,8 +8,9 @@ target 'Hydrant' do
   use_frameworks!
 
   # Pods for Hydrant
-  pod 'AMapNavi-NO-IDFA'   # 导航SDK 已包含3D地图，无需单独引入3D地图
-  pod 'AMapSearch-NO-IDFA' # 搜索功能
-  pod 'AMapLocation-NO-IDFA' # 定位SDK
+  pod 'AMapNavi-NO-IDFA'   # 高德导航SDK 已包含3D地图，无需单独引入3D地图
+  pod 'AMapSearch-NO-IDFA' # 高德搜索功能
+  pod 'AMapLocation-NO-IDFA' # 高德定位SDK
   pod 'R.swift' # 资源管理
+  pod 'DropDown' # 下拉菜单
 end

@@ -50,6 +50,7 @@ class AMapViewController: UIViewController {
 
         setMap()
         setButtonsView()
+        showHydrants()
     }
     
     /// 设置地图属性
@@ -90,5 +91,10 @@ class AMapViewController: UIViewController {
         buttonsView.layer.shadowRadius = 1
         buttonsView.layer.shadowOpacity = 0.5
         buttonsView.layer.shadowColor = UIColor.gray.cgColor
+    }
+    
+    /// 显示附近消火栓
+    fileprivate func showHydrants() {
+    
     }
 }

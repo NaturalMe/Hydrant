@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import DropDown
 
 class MenuViewController: UIViewController {
 
@@ -19,6 +20,9 @@ class MenuViewController: UIViewController {
     
     /// 交通状况开关
     @IBOutlet weak var showTrafficSwitch: UISwitch!
+    
+    /// 搜索半径选择按钮
+    @IBOutlet weak var searchRadiusButton: UIButton!
     
     /// 添加消火栓按钮
     @IBOutlet weak var addHydrantButton: UIButton!
@@ -50,33 +54,68 @@ class MenuViewController: UIViewController {
         showTraffic.set(b: sender.isOn)
     }
     
+    /// 触摸选择搜索半径按钮
+    ///
+    /// - Parameter sender: 搜索半径按钮
+    @IBAction func touchSearchRadiusButton(_ sender: UIButton) {
+        searchRadiusDropDown.show()
+    }
+    
+    /// 触摸添加消火栓按钮
+    ///
+    /// - Parameter sender: 添加消火栓按钮
     @IBAction func touchAddHydrant(_ sender: Any) {
         
     }
     
+    /// 触摸报告问题按钮
+    ///
+    /// - Parameter sender: 报告问题按钮
     @IBAction func touchReportProblemButton(_ sender: Any) {
 
     }
     
+    /// 存储地图类型
+    fileprivate let mapType = MapType()
+    
+    /// 存储是否显示交通状况
+    fileprivate let showTraffic = ShowTraffic()
+    
+    /// 存储搜索半径
+    fileprivate let searchRadius = SearchRadius()
+    
+    /// 搜索半径下拉菜单
+    fileprivate let searchRadiusDropDown = DropDown()
     
     /// 高德地图
     var mapView: MAMapView!
     
-    /// 存储地图类型
-    let mapType = MapType()
     
-    /// 存储是否显示交通状况
-    let showTraffic = ShowTraffic()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()
     }
 
-    func setUI() {
+    /// 设置UI属性
+    fileprivate func setUI() {
+        
+        /// 设置搜索半径下拉菜单
+        func setSearchRadiusDropDown() {
+            searchRadiusDropDown.anchorView = searchRadiusButton
+            searchRadiusDropDown.dataSource = ["1000", "2000", "3000"]
+            searchRadiusDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
+                self.searchRadiusButton.setTitle(item, for: .normal)
+                self.searchRadius.set(i: index)
+            }
+            searchRadiusDropDown.selectRow(at: searchRadius.get())
+            searchRadiusButton.setTitle(searchRadiusDropDown.selectedItem, for: .normal)
+        }
+        
         menu.corner(byRoundingCorners: [.topLeft, .topRight], radii: 10)
         mapTypeSegmentedControl.selectedSegmentIndex = mapType.get()
         showTrafficSwitch.setOn(showTraffic.get(), animated: false)
+        setSearchRadiusDropDown()
         addHydrantButton.contentHorizontalAlignment = .left
         reportProblemButton.contentHorizontalAlignment = .left
     }

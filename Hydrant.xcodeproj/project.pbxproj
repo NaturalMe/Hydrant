@@ -13,6 +13,7 @@
 		205D20CD1E4D49F4004CAE06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205D20CB1E4D49F4004CAE06 /* Main.storyboard */; };
 		205D20CF1E4D49F4004CAE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205D20CE1E4D49F4004CAE06 /* Assets.xcassets */; };
 		205D20D21E4D49F4004CAE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205D20D01E4D49F4004CAE06 /* LaunchScreen.storyboard */; };
+		206266FB1E5AD9120004B2D4 /* SearchRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206266FA1E5AD9120004B2D4 /* SearchRadius.swift */; };
 		2095A5E41E55317E003445BA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5E31E55317E003445BA /* R.generated.swift */; };
 		2095A5EE1E554683003445BA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5ED1E554683003445BA /* MenuViewController.swift */; };
 		2095A5F01E557664003445BA /* MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5EF1E557664003445BA /* MapType.swift */; };
@@ -30,6 +31,7 @@
 		205D20CE1E4D49F4004CAE06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		205D20D11E4D49F4004CAE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205D20D31E4D49F4004CAE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		206266FA1E5AD9120004B2D4 /* SearchRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRadius.swift; sourceTree = "<group>"; };
 		2095A5E31E55317E003445BA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		2095A5ED1E554683003445BA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2095A5EF1E557664003445BA /* MapType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapType.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 			children = (
 				2095A5EF1E557664003445BA /* MapType.swift */,
 				2095A5F11E5589E4003445BA /* ShowTraffic.swift */,
+				206266FA1E5AD9120004B2D4 /* SearchRadius.swift */,
 			);
 			path = Service;
 			sourceTree = SOURCE_ROOT;
@@ -296,6 +299,7 @@
 				205D20C81E4D49F4004CAE06 /* AppDelegate.swift in Sources */,
 				2095A5EE1E554683003445BA /* MenuViewController.swift in Sources */,
 				2095A5F01E557664003445BA /* MapType.swift in Sources */,
+				206266FB1E5AD9120004B2D4 /* SearchRadius.swift in Sources */,
 				20F62FF01E530308009D3B55 /* AMapViewController.swift in Sources */,
 				2095A5F21E5589E4003445BA /* ShowTraffic.swift in Sources */,
 				2006AF0E1E528D3F00B8E8A3 /* Taraxacum.swift in Sources */,

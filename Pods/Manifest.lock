@@ -1,15 +1,16 @@
 PODS:
-  - AMap3DMap-NO-IDFA (4.4.1):
+  - AMap3DMap-NO-IDFA (4.6.1):
     - AMapFoundation-NO-IDFA (~> 1.3)
-  - AMapFoundation-NO-IDFA (1.3.2)
-  - AMapLocation-NO-IDFA (2.2.0):
+  - AMapFoundation-NO-IDFA (1.3.3)
+  - AMapLocation-NO-IDFA (2.3.0):
     - AMapFoundation-NO-IDFA (~> 1.3)
   - AMapNavi-NO-IDFA (2.3.0):
     - AMap3DMap-NO-IDFA (~> 4.2)
     - AMapFoundation-NO-IDFA (~> 1.2)
-  - AMapSearch-NO-IDFA (4.4.0):
+  - AMapSearch-NO-IDFA (4.5.0):
     - AMapFoundation-NO-IDFA (~> 1.2)
-  - R.swift (3.1.0):
+  - DropDown (2)
+  - R.swift (3.2.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
 
@@ -17,17 +18,19 @@ DEPENDENCIES:
   - AMapLocation-NO-IDFA
   - AMapNavi-NO-IDFA
   - AMapSearch-NO-IDFA
+  - DropDown
   - R.swift
 
 SPEC CHECKSUMS:
-  AMap3DMap-NO-IDFA: 64a0e6ce99a7051edcb8659ef11d5499b846a69a
-  AMapFoundation-NO-IDFA: aed72ae41737997d9f8eed7338fd23d22fe63ead
-  AMapLocation-NO-IDFA: ae9291264722d8ac1fb4663fc792081ac4659b31
+  AMap3DMap-NO-IDFA: 4a1efafcebe244f80e923931c2f35e3929197283
+  AMapFoundation-NO-IDFA: 1c79258b0a2c2539a8e6809174c06c55340129a7
+  AMapLocation-NO-IDFA: c458bd5f15d1243381274508f029960ae48b2801
   AMapNavi-NO-IDFA: a54f35c1c1e3e0ba14cf1139a7c7a6e8ff832fae
-  AMapSearch-NO-IDFA: fed2b7fb244e3f5d3a8408d0b7aeabb574dc807c
-  R.swift: 14400e5784224d1e4e59a8fc5549198c7e8fe360
+  AMapSearch-NO-IDFA: c14f82f9f06533b033da001c94077c50d48cee25
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  R.swift: 207a372a2b5977caef440c696a368009460641d1
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
 
-PODFILE CHECKSUM: 6c0f7119fa056ccf704d0bb851e98e046bab7e7e
+PODFILE CHECKSUM: fd376ca7eb5ead7062bcf3867cca2343d02475f3
 
 COCOAPODS: 1.2.0

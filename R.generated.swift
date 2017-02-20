@@ -10,7 +10,7 @@ import UIKit
 /// This `R` struct is generated and contains references to static resources.
 struct R: Rswift.Validatable {
   fileprivate static let applicationLocale = hostingBundle.preferredLocalizations.first.flatMap(Locale.init) ?? Locale.current
-  fileprivate static let hostingBundle = Bundle(identifier: "com.zhangrunliang.Hydrant") ?? Bundle.main
+  fileprivate static let hostingBundle = Bundle(for: R.Class.self)
   
   static func validate() throws {
     try intern.validate()
@@ -84,6 +84,8 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
+  fileprivate class Class {}
+  
   fileprivate init() {}
 }
 
@@ -113,9 +115,14 @@ struct _R: Rswift.Validatable {
     struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
       typealias InitialController = AMapViewController
       
+      let addHydrantViewController = StoryboardViewControllerResource<AddHydrantViewController>(identifier: "AddHydrantViewController")
       let bundle = R.hostingBundle
       let menuViewController = StoryboardViewControllerResource<MenuViewController>(identifier: "MenuViewController")
       let name = "Main"
+      
+      func addHydrantViewController(_: Void = ()) -> AddHydrantViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addHydrantViewController)
+      }
       
       func menuViewController(_: Void = ()) -> MenuViewController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: menuViewController)
@@ -123,6 +130,7 @@ struct _R: Rswift.Validatable {
       
       static func validate() throws {
         if _R.storyboard.main().menuViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'menuViewController' could not be loaded from storyboard 'Main' as 'MenuViewController'.") }
+        if _R.storyboard.main().addHydrantViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addHydrantViewController' could not be loaded from storyboard 'Main' as 'AddHydrantViewController'.") }
       }
       
       fileprivate init() {}
