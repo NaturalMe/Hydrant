@@ -113,15 +113,15 @@ struct _R: Rswift.Validatable {
     }
     
     struct main: Rswift.StoryboardResourceWithInitialControllerType, Rswift.Validatable {
-      typealias InitialController = AMapViewController
+      typealias InitialController = MapViewController
       
-      let addHydrantViewController = StoryboardViewControllerResource<AddHydrantViewController>(identifier: "AddHydrantViewController")
+      let addHydrantNavigationController = StoryboardViewControllerResource<UIKit.UINavigationController>(identifier: "AddHydrantNavigationController")
       let bundle = R.hostingBundle
       let menuViewController = StoryboardViewControllerResource<MenuViewController>(identifier: "MenuViewController")
       let name = "Main"
       
-      func addHydrantViewController(_: Void = ()) -> AddHydrantViewController? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addHydrantViewController)
+      func addHydrantNavigationController(_: Void = ()) -> UIKit.UINavigationController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addHydrantNavigationController)
       }
       
       func menuViewController(_: Void = ()) -> MenuViewController? {
@@ -130,7 +130,7 @@ struct _R: Rswift.Validatable {
       
       static func validate() throws {
         if _R.storyboard.main().menuViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'menuViewController' could not be loaded from storyboard 'Main' as 'MenuViewController'.") }
-        if _R.storyboard.main().addHydrantViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addHydrantViewController' could not be loaded from storyboard 'Main' as 'AddHydrantViewController'.") }
+        if _R.storyboard.main().addHydrantNavigationController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addHydrantNavigationController' could not be loaded from storyboard 'Main' as 'UIKit.UINavigationController'.") }
       }
       
       fileprivate init() {}

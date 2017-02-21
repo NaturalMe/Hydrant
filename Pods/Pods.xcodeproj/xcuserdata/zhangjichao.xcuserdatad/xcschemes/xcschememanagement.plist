@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>NextGrowingTextView.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>Pods-Hydrant.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -27,12 +32,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>409F121502B45429ABAA2BDBB957095B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5168099F2EBFC99A707C03C9EADE01A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>58000732F622F3F4455C1D937B511EF6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80A80D406982DC9EBCF985AD22A5EADD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>979CC62241E296AA58F511BA95A17266</key>
 		<dict>
 			<key>primary</key>
 			<true/>

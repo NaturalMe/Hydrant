@@ -10,6 +10,7 @@ PODS:
   - AMapSearch-NO-IDFA (4.5.0):
     - AMapFoundation-NO-IDFA (~> 1.2)
   - DropDown (2)
+  - NextGrowingTextView (0.8.5)
   - R.swift (3.2.0):
     - R.swift.Library (~> 3.0.2)
   - R.swift.Library (3.0.2)
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - AMapNavi-NO-IDFA
   - AMapSearch-NO-IDFA
   - DropDown
+  - NextGrowingTextView
   - R.swift
 
 SPEC CHECKSUMS:
@@ -28,9 +30,10 @@ SPEC CHECKSUMS:
   AMapNavi-NO-IDFA: a54f35c1c1e3e0ba14cf1139a7c7a6e8ff832fae
   AMapSearch-NO-IDFA: c14f82f9f06533b033da001c94077c50d48cee25
   DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  NextGrowingTextView: 3cc930a03c5979071244af42bcc81360d7453323
   R.swift: 207a372a2b5977caef440c696a368009460641d1
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
 
-PODFILE CHECKSUM: fd376ca7eb5ead7062bcf3867cca2343d02475f3
+PODFILE CHECKSUM: e4d07acb69d2f5a87602b5359044e08dc2dab3fd
 
 COCOAPODS: 1.2.0

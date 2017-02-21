@@ -65,7 +65,8 @@ class MenuViewController: UIViewController {
     ///
     /// - Parameter sender: 添加消火栓按钮
     @IBAction func touchAddHydrant(_ sender: Any) {
-        
+        let vc = R.storyboard.main.addHydrantNavigationController()!
+        present(vc, animated: true, completion: nil)
     }
     
     /// 触摸报告问题按钮
@@ -94,14 +95,15 @@ class MenuViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUI()
+        
+        setting()
     }
 
     /// 设置UI属性
-    fileprivate func setUI() {
+    fileprivate func setting() {
         
         /// 设置搜索半径下拉菜单
-        func setSearchRadiusDropDown() {
+        func settingSearchRadiusDropDown() {
             searchRadiusDropDown.anchorView = searchRadiusButton
             searchRadiusDropDown.dataSource = ["1000", "2000", "3000"]
             searchRadiusDropDown.selectionAction = { [unowned self] (index: Int, item: String) in
@@ -115,7 +117,7 @@ class MenuViewController: UIViewController {
         menu.corner(byRoundingCorners: [.topLeft, .topRight], radii: 10)
         mapTypeSegmentedControl.selectedSegmentIndex = mapType.get()
         showTrafficSwitch.setOn(showTraffic.get(), animated: false)
-        setSearchRadiusDropDown()
+        settingSearchRadiusDropDown()
         addHydrantButton.contentHorizontalAlignment = .left
         reportProblemButton.contentHorizontalAlignment = .left
     }

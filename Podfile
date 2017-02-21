@@ -13,4 +13,5 @@ target 'Hydrant' do
   pod 'AMapLocation-NO-IDFA' # 高德定位SDK
   pod 'R.swift' # 资源管理
   pod 'DropDown' # 下拉菜单
+  pod 'NextGrowingTextView' #文本视图
 end
