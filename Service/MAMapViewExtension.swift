@@ -13,7 +13,7 @@ extension MAMapView {
     /// 设置地图属性
     func setting() {
         // 改变地图的缩放级别
-        setZoomLevel(17, animated: false)
+        setZoomLevel(18, animated: false)
         
         // 显示定位蓝点
         showsUserLocation = true
