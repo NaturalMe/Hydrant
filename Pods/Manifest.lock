@@ -9,7 +9,18 @@ PODS:
     - AMapFoundation-NO-IDFA (~> 1.2)
   - AMapSearch-NO-IDFA (4.5.0):
     - AMapFoundation-NO-IDFA (~> 1.2)
+  - AVOSCloud (4.0.1)
+  - AVOSCloudCrashReporting (4.0.1):
+    - AVOSCloud (= 4.0.1)
+    - AVOSCloudCrashReporting/_ARC (= 4.0.1)
+    - AVOSCloudCrashReporting/_NOARC (= 4.0.1)
+  - AVOSCloudCrashReporting/_ARC (4.0.1):
+    - AVOSCloud (= 4.0.1)
+    - AVOSCloudCrashReporting/_NOARC (= 4.0.1)
+  - AVOSCloudCrashReporting/_NOARC (4.0.1):
+    - AVOSCloud (= 4.0.1)
   - DropDown (2)
+  - IQKeyboardManagerSwift (4.0.8)
   - NextGrowingTextView (0.8.5)
   - R.swift (3.2.0):
     - R.swift.Library (~> 3.0.2)
@@ -19,7 +30,10 @@ DEPENDENCIES:
   - AMapLocation-NO-IDFA
   - AMapNavi-NO-IDFA
   - AMapSearch-NO-IDFA
+  - AVOSCloud
+  - AVOSCloudCrashReporting
   - DropDown
+  - IQKeyboardManagerSwift
   - NextGrowingTextView
   - R.swift
 
@@ -29,11 +43,14 @@ SPEC CHECKSUMS:
   AMapLocation-NO-IDFA: c458bd5f15d1243381274508f029960ae48b2801
   AMapNavi-NO-IDFA: a54f35c1c1e3e0ba14cf1139a7c7a6e8ff832fae
   AMapSearch-NO-IDFA: c14f82f9f06533b033da001c94077c50d48cee25
+  AVOSCloud: 521d3639c2619126ec073f617bb5992472b5b2d3
+  AVOSCloudCrashReporting: f828e57e6900bc7d08bee74e85455b1080b61ea0
   DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
   NextGrowingTextView: 3cc930a03c5979071244af42bcc81360d7453323
   R.swift: 207a372a2b5977caef440c696a368009460641d1
   R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
 
-PODFILE CHECKSUM: e4d07acb69d2f5a87602b5359044e08dc2dab3fd
+PODFILE CHECKSUM: e990adc5dbf6fe6c2bc393befc570bc79b55982c
 
 COCOAPODS: 1.2.0

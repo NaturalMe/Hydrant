@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AVOSCloud.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>AVOSCloudCrashReporting.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
 		<key>DropDown.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>IQKeyboardManagerSwift.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>NextGrowingTextView.xcscheme</key>
 		<dict>
@@ -27,12 +42,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>288A6E512ABA7B290C198795E7118F53</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>2D244953B9FC11E746C7F15A6D35AAF7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>409F121502B45429ABAA2BDBB957095B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4DC059E04CBA98AEDDB5C34E02D551E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>50B18B455882DC92C4325C183C231602</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -47,7 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>6436AC8F0F18678A4C3F94CE76BED023</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>77334D74171BE1FBBCB0390B6F8FECC0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>80A80D406982DC9EBCF985AD22A5EADD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>942C45249A2B483F86C14D65B1F250AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -63,6 +108,11 @@
 			<true/>
 		</dict>
 		<key>C169362E18882C8C325334F820EA3530</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CB8EE2F8E7D488B915890D3D6EB63399</key>
 		<dict>
 			<key>primary</key>
 			<true/>

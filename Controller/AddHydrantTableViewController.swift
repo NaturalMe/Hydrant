@@ -11,7 +11,12 @@ import NextGrowingTextView
 
 class AddHydrantTableViewController: UITableViewController {
 
-    //@IBOutlet weak var descriptionTextView: NextGrowingTextView!
+    /// 文字描述文本视图
+    @IBOutlet weak var descriptionTextView: NextGrowingTextView!
+    
+    /// 提交按钮
+    @IBOutlet weak var submit: UIButton!
+    
     
     /// 触摸取消
     ///
@@ -43,9 +48,19 @@ class AddHydrantTableViewController: UITableViewController {
     func setting() {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
-        // 隐藏 Grouped TableView 上边多余的间隔
-        tableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 0.1))
-        //descriptionTextView.placeholderAttributedText = NSAttributedString(string: "请描述这个消火栓的特征，如周围特征建筑、店铺、所在街道等", attributes: [NSFontAttributeName: descriptionTextView.font!,NSForegroundColorAttributeName: UIColor.gray])
+        // Grouped TableView 上边多余的间隔
+        tableView.tableHeaderView = UIView(frame: CGRect(x: 0, y: 0, width: 0, height: 4))
+        descriptionTextView.placeholderAttributedText = NSAttributedString(string: "请描述这个消火栓的特征，如周围特征建筑、店铺、所在街道等", attributes: [NSFontAttributeName: descriptionTextView.font!,NSForegroundColorAttributeName: UIColor.gray])
+        submit.layer.cornerRadius = 5
+    }
+    
+    /// 拍照
+    func photograph() {
+        guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
+            print("相机不可用")
+            return
+        }
+        
     }
 
 }
