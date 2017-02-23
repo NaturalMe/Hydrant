@@ -31,14 +31,21 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 1 images.
+  /// This `R.image` struct is generated, and contains static references to 2 images.
   struct image {
     /// Image `Marker-100`.
     static let marker100 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Marker-100")
+    /// Image `拍照`.
+    static let 拍照 = Rswift.ImageResource(bundle: R.hostingBundle, name: "拍照")
     
     /// `UIImage(named: "Marker-100", bundle: ..., traitCollection: ...)`
     static func marker100(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.marker100, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "拍照", bundle: ..., traitCollection: ...)`
+    static func 拍照(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.拍照, compatibleWith: traitCollection)
     }
     
     fileprivate init() {}
@@ -49,8 +56,11 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.reuseIdentifier` struct is generated, and contains static references to 0 reuse identifiers.
+  /// This `R.reuseIdentifier` struct is generated, and contains static references to 1 reuse identifiers.
   struct reuseIdentifier {
+    /// Reuse identifier `photo`.
+    static let photo: Rswift.ReuseIdentifier<UIKit.UIView> = Rswift.ReuseIdentifier(identifier: "photo")
+    
     fileprivate init() {}
   }
   
@@ -127,6 +137,8 @@ struct _R: Rswift.Validatable {
       let bundle = R.hostingBundle
       let menuViewController = StoryboardViewControllerResource<MenuViewController>(identifier: "MenuViewController")
       let name = "Main"
+      let photoPageViewController = StoryboardViewControllerResource<PhotoPageViewController>(identifier: "PhotoPageViewController")
+      let photoViewController = StoryboardViewControllerResource<PhotoViewController>(identifier: "PhotoViewController")
       
       func addHydrantNavigationController(_: Void = ()) -> UIKit.UINavigationController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: addHydrantNavigationController)
@@ -136,7 +148,18 @@ struct _R: Rswift.Validatable {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: menuViewController)
       }
       
+      func photoPageViewController(_: Void = ()) -> PhotoPageViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: photoPageViewController)
+      }
+      
+      func photoViewController(_: Void = ()) -> PhotoViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: photoViewController)
+      }
+      
       static func validate() throws {
+        if UIKit.UIImage(named: "Marker-100") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'Marker-100' is used in storyboard 'Main', but couldn't be loaded.") }
+        if _R.storyboard.main().photoPageViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'photoPageViewController' could not be loaded from storyboard 'Main' as 'PhotoPageViewController'.") }
+        if _R.storyboard.main().photoViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'photoViewController' could not be loaded from storyboard 'Main' as 'PhotoViewController'.") }
         if _R.storyboard.main().menuViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'menuViewController' could not be loaded from storyboard 'Main' as 'MenuViewController'.") }
         if _R.storyboard.main().addHydrantNavigationController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addHydrantNavigationController' could not be loaded from storyboard 'Main' as 'UIKit.UINavigationController'.") }
       }

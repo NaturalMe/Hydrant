@@ -19,6 +19,9 @@
 		2095A5EE1E554683003445BA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5ED1E554683003445BA /* MenuViewController.swift */; };
 		2095A5F01E557664003445BA /* MapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5EF1E557664003445BA /* MapType.swift */; };
 		2095A5F21E5589E4003445BA /* ShowTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5F11E5589E4003445BA /* ShowTraffic.swift */; };
+		2099B6621E5EAF6A003E6C5C /* AddPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099B6611E5EAF6A003E6C5C /* AddPhotoCollectionViewCell.swift */; };
+		2099B6641E5ED559003E6C5C /* PhotoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099B6631E5ED559003E6C5C /* PhotoPageViewController.swift */; };
+		2099B6661E5EE025003E6C5C /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2099B6651E5EE025003E6C5C /* PhotoViewController.swift */; };
 		20A5539B1E5C289E005F099D /* SelectLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5539A1E5C289E005F099D /* SelectLocationViewController.swift */; };
 		20A5539D1E5C29C2005F099D /* MAMapViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20A5539C1E5C29C2005F099D /* MAMapViewExtension.swift */; };
 		20F62FF01E530308009D3B55 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F62FEF1E530308009D3B55 /* MapViewController.swift */; };
@@ -40,6 +43,9 @@
 		2095A5ED1E554683003445BA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		2095A5EF1E557664003445BA /* MapType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapType.swift; sourceTree = "<group>"; };
 		2095A5F11E5589E4003445BA /* ShowTraffic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowTraffic.swift; sourceTree = "<group>"; };
+		2099B6611E5EAF6A003E6C5C /* AddPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		2099B6631E5ED559003E6C5C /* PhotoPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPageViewController.swift; sourceTree = "<group>"; };
+		2099B6651E5EE025003E6C5C /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		20A5539A1E5C289E005F099D /* SelectLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLocationViewController.swift; sourceTree = "<group>"; };
 		20A5539C1E5C29C2005F099D /* MAMapViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MAMapViewExtension.swift; sourceTree = "<group>"; };
 		20F62FEC1E52FDDF009D3B55 /* Hydrant-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hydrant-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -115,6 +121,8 @@
 				2095A5ED1E554683003445BA /* MenuViewController.swift */,
 				2080124F1E5BE5D00009F7AD /* AddHydrantTableViewController.swift */,
 				20A5539A1E5C289E005F099D /* SelectLocationViewController.swift */,
+				2099B6631E5ED559003E6C5C /* PhotoPageViewController.swift */,
+				2099B6651E5EE025003E6C5C /* PhotoViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = SOURCE_ROOT;
@@ -148,6 +156,7 @@
 		20BE84A81E515A6C002D85BD /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2099B6611E5EAF6A003E6C5C /* AddPhotoCollectionViewCell.swift */,
 			);
 			path = View;
 			sourceTree = SOURCE_ROOT;
@@ -306,6 +315,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				205D20C81E4D49F4004CAE06 /* AppDelegate.swift in Sources */,
+				2099B6641E5ED559003E6C5C /* PhotoPageViewController.swift in Sources */,
 				2095A5EE1E554683003445BA /* MenuViewController.swift in Sources */,
 				2095A5F01E557664003445BA /* MapType.swift in Sources */,
 				206266FB1E5AD9120004B2D4 /* SearchRadius.swift in Sources */,
@@ -315,6 +325,8 @@
 				20A5539B1E5C289E005F099D /* SelectLocationViewController.swift in Sources */,
 				208012501E5BE5D00009F7AD /* AddHydrantTableViewController.swift in Sources */,
 				2006AF0E1E528D3F00B8E8A3 /* Taraxacum.swift in Sources */,
+				2099B6661E5EE025003E6C5C /* PhotoViewController.swift in Sources */,
+				2099B6621E5EAF6A003E6C5C /* AddPhotoCollectionViewCell.swift in Sources */,
 				2095A5E41E55317E003445BA /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

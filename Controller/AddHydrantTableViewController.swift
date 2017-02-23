@@ -9,12 +9,14 @@
 import UIKit
 import NextGrowingTextView
 
-class AddHydrantTableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class AddHydrantTableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
 
-    @IBOutlet weak var pictureStackView: UIStackView!
+    
+    /// 照片集合视图
+    @IBOutlet weak var photoCollectionView: UICollectionView!
     
     /// 拍照按钮
-    @IBOutlet weak var photographButton: UIButton!
+    //@IBOutlet weak var photographButton: UIButton!
     
     /// 文字描述文本视图
     @IBOutlet weak var descriptionTextView: NextGrowingTextView!
@@ -40,28 +42,21 @@ class AddHydrantTableViewController: UITableViewController, UIImagePickerControl
     /// 触摸示例图片按钮
     ///
     /// - Parameter sender: 示例图片按钮
-    @IBAction func touchExamplePhotograph(_ sender: Any) {
+    @IBAction func touchExamplePhoto(_ sender: Any) {
         
     }
     
-    /// 触摸拍照按钮
-    ///
-    /// - Parameter sender: 拍照按钮
-    @IBAction func touchPhotograph(_ sender: Any) {
-        photograph()
-    }
     
     /// 添加照片数量上限
-    let pictureCountMax = 3
+    let photoCountMax = 3
     
     /// 照片数组
-    var pictureArray: [UIImage] = []
+    var photoArray: [UIImage] = [R.image.拍照()!]
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         setting()
-        
     }
 
     override func didReceiveMemoryWarning() {
@@ -88,28 +83,51 @@ class AddHydrantTableViewController: UITableViewController, UIImagePickerControl
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = .camera
-        picker.allowsEditing = true
-        present(picker, animated: true, completion: nil)
+        picker.allowsEditing = false
+        self.present(picker, animated: true, completion: nil)
     }
 
     // MARK: - UIImagePickerControllerDelegate
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
         
-        let image = info[UIImagePickerControllerEditedImage] as! UIImage
-        
-        
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        photoArray.insert(image, at: photoArray.count - 1)
+        photoCollectionView.reloadData()
+        dismiss(animated: true, completion: nil)
     }
     
-    fileprivate func appendPicture(image: UIImage) {
-        pictureArray.append(image)
-        if pictureArray.count == pictureCountMax {
-            photographButton.isHidden = true
-        } else {
-            photographButton.isHidden = false
+    // MARK: - UICollectionViewDataSource
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return photoArray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "photo", for: indexPath)
+        let row = indexPath.row
+        cell.backgroundView = UIImageView(image: self.photoArray[row])
+        
+        // 添加图片上限 不在显示添加按钮
+        if row == photoCountMax {
+            cell.isHidden = true
         }
+        
+        return cell
     }
     
-    fileprivate func removePicture() {
-        
+    // MARK: - UICollectionViewDelegate
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        // 如果点击的是最后一个按钮(即拍照按钮)
+        if photoArray.count == indexPath.row + 1 {
+            photograph()
+        } else {
+            // 预览图片
+            let vc = R.storyboard.main.photoPageViewController()!
+            vc.photoArray = photoArray
+            show(vc, sender: nil)
+        }
     }
 }
