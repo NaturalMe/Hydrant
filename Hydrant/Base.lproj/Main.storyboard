@@ -324,7 +324,6 @@
                                                     <rect key="frame" x="204" y="15" width="92" height="30"/>
                                                     <state key="normal" title="点击选择位置"/>
                                                     <connections>
-                                                        <action selector="touchSelectLocationButton:" destination="nip-Hg-rCP" eventType="touchUpInside" id="aV4-bl-xKo"/>
                                                         <segue destination="wir-3i-I7x" kind="show" id="fJT-sm-f8r"/>
                                                     </connections>
                                                 </button>
@@ -349,7 +348,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加照片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nvY-gb-bFO">
-                                                    <rect key="frame" x="24" y="19" width="70" height="21"/>
+                                                    <rect key="frame" x="24" y="19" width="69.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -357,11 +356,17 @@
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4B-nn-TIO">
                                                     <rect key="frame" x="234" y="14" width="62" height="30"/>
                                                     <state key="normal" title="示例图片"/>
+                                                    <connections>
+                                                        <action selector="touchExamplePhotograph:" destination="nip-Hg-rCP" eventType="touchUpInside" id="vZe-br-51j"/>
+                                                    </connections>
                                                 </button>
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gls-Z2-4ab">
-                                                    <rect key="frame" x="44" y="64" width="31" height="30"/>
+                                                    <rect key="frame" x="24" y="47" width="92" height="92"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <state key="normal" title="拍照"/>
+                                                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <connections>
+                                                        <action selector="touchPhotograph:" destination="nip-Hg-rCP" eventType="touchUpInside" id="Rec-vD-Dum"/>
+                                                    </connections>
                                                 </button>
                                             </subviews>
                                             <constraints>
@@ -448,6 +453,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="descriptionTextView" destination="qt5-r5-kqv" id="UnZ-BK-PRq"/>
+                        <outlet property="photographButton" destination="Gls-Z2-4ab" id="emZ-OP-rGN"/>
                         <outlet property="submit" destination="dam-8O-77X" id="VE2-gJ-6Tv"/>
                     </connections>
                 </tableViewController>

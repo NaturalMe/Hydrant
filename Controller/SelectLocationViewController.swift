@@ -45,7 +45,7 @@ class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapV
         setting()
     }
 
-    func setting() {
+    fileprivate func setting() {
         navigationController?.interactivePopGestureRecognizer?.isEnabled = false
         addMarker()
     }
@@ -57,7 +57,7 @@ class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapV
     }
     
     /// 发起逆地理编码查询
-    func reGoecodeSearch(coordinate: CLLocationCoordinate2D) {
+    fileprivate func reGoecodeSearch(coordinate: CLLocationCoordinate2D) {
         let request = AMapReGeocodeSearchRequest()
         request.location = AMapGeoPoint.location(withLatitude: CGFloat(coordinate.latitude), longitude: CGFloat(coordinate.longitude))
         request.requireExtension = true
@@ -69,7 +69,7 @@ class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapV
     /// 添加默认样式点标记
     ///
     /// - Parameter coordinate: 标记经纬度
-    func addAnnotation(coordinate: CLLocationCoordinate2D) {
+    fileprivate func addAnnotation(coordinate: CLLocationCoordinate2D) {
         let pointAnnotation = MAPointAnnotation()
         pointAnnotation.coordinate = coordinate
         pointAnnotation.title = "方恒国际"
@@ -78,7 +78,7 @@ class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapV
     }
     
     /// 添加地图中心选择标记
-    func addMarker() {
+    fileprivate func addMarker() {
         let imageView = UIImageView(image: #imageLiteral(resourceName: "Marker-100"))
         let length: CGFloat = 40
         // 调整图片位置与坐标位置同步

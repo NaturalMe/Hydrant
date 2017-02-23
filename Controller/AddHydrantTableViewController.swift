@@ -9,8 +9,13 @@
 import UIKit
 import NextGrowingTextView
 
-class AddHydrantTableViewController: UITableViewController {
+class AddHydrantTableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
+    @IBOutlet weak var pictureStackView: UIStackView!
+    
+    /// 拍照按钮
+    @IBOutlet weak var photographButton: UIButton!
+    
     /// 文字描述文本视图
     @IBOutlet weak var descriptionTextView: NextGrowingTextView!
     
@@ -28,10 +33,29 @@ class AddHydrantTableViewController: UITableViewController {
     /// 触摸选择位置按钮
     ///
     /// - Parameter sender: 选择位置按钮
-    @IBAction func touchSelectLocationButton(_ sender: Any) {
+//    @IBAction func touchSelectLocation(_ sender: Any) {
+//        
+//    }
+    
+    /// 触摸示例图片按钮
+    ///
+    /// - Parameter sender: 示例图片按钮
+    @IBAction func touchExamplePhotograph(_ sender: Any) {
         
     }
     
+    /// 触摸拍照按钮
+    ///
+    /// - Parameter sender: 拍照按钮
+    @IBAction func touchPhotograph(_ sender: Any) {
+        photograph()
+    }
+    
+    /// 添加照片数量上限
+    let pictureCountMax = 3
+    
+    /// 照片数组
+    var pictureArray: [UIImage] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,7 +69,7 @@ class AddHydrantTableViewController: UITableViewController {
     }
     
     /// 设置UI
-    func setting() {
+    fileprivate func setting() {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)
         
         // Grouped TableView 上边多余的间隔
@@ -55,12 +79,37 @@ class AddHydrantTableViewController: UITableViewController {
     }
     
     /// 拍照
-    func photograph() {
+    fileprivate func photograph() {
         guard UIImagePickerController.isSourceTypeAvailable(.camera) else {
             print("相机不可用")
             return
         }
         
+        let picker = UIImagePickerController()
+        picker.delegate = self
+        picker.sourceType = .camera
+        picker.allowsEditing = true
+        present(picker, animated: true, completion: nil)
     }
 
+    // MARK: - UIImagePickerControllerDelegate
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        let image = info[UIImagePickerControllerEditedImage] as! UIImage
+        
+        
+    }
+    
+    fileprivate func appendPicture(image: UIImage) {
+        pictureArray.append(image)
+        if pictureArray.count == pictureCountMax {
+            photographButton.isHidden = true
+        } else {
+            photographButton.isHidden = false
+        }
+    }
+    
+    fileprivate func removePicture() {
+        
+    }
 }
