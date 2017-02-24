@@ -14,6 +14,7 @@
 		205D20CF1E4D49F4004CAE06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 205D20CE1E4D49F4004CAE06 /* Assets.xcassets */; };
 		205D20D21E4D49F4004CAE06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 205D20D01E4D49F4004CAE06 /* LaunchScreen.storyboard */; };
 		206266FB1E5AD9120004B2D4 /* SearchRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206266FA1E5AD9120004B2D4 /* SearchRadius.swift */; };
+		206689C51E5FCFEA00491E4C /* PhotoBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 206689C41E5FCFEA00491E4C /* PhotoBackgroundViewController.swift */; };
 		208012501E5BE5D00009F7AD /* AddHydrantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2080124F1E5BE5D00009F7AD /* AddHydrantTableViewController.swift */; };
 		2095A5E41E55317E003445BA /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5E31E55317E003445BA /* R.generated.swift */; };
 		2095A5EE1E554683003445BA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2095A5ED1E554683003445BA /* MenuViewController.swift */; };
@@ -38,6 +39,7 @@
 		205D20D11E4D49F4004CAE06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		205D20D31E4D49F4004CAE06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		206266FA1E5AD9120004B2D4 /* SearchRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRadius.swift; sourceTree = "<group>"; };
+		206689C41E5FCFEA00491E4C /* PhotoBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoBackgroundViewController.swift; sourceTree = "<group>"; };
 		2080124F1E5BE5D00009F7AD /* AddHydrantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddHydrantTableViewController.swift; sourceTree = "<group>"; };
 		2095A5E31E55317E003445BA /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		2095A5ED1E554683003445BA /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				2095A5ED1E554683003445BA /* MenuViewController.swift */,
 				2080124F1E5BE5D00009F7AD /* AddHydrantTableViewController.swift */,
 				20A5539A1E5C289E005F099D /* SelectLocationViewController.swift */,
+				206689C41E5FCFEA00491E4C /* PhotoBackgroundViewController.swift */,
 				2099B6631E5ED559003E6C5C /* PhotoPageViewController.swift */,
 				2099B6651E5EE025003E6C5C /* PhotoViewController.swift */,
 			);
@@ -321,6 +324,7 @@
 				206266FB1E5AD9120004B2D4 /* SearchRadius.swift in Sources */,
 				20F62FF01E530308009D3B55 /* MapViewController.swift in Sources */,
 				2095A5F21E5589E4003445BA /* ShowTraffic.swift in Sources */,
+				206689C51E5FCFEA00491E4C /* PhotoBackgroundViewController.swift in Sources */,
 				20A5539D1E5C29C2005F099D /* MAMapViewExtension.swift in Sources */,
 				20A5539B1E5C289E005F099D /* SelectLocationViewController.swift in Sources */,
 				208012501E5BE5D00009F7AD /* AddHydrantTableViewController.swift in Sources */,

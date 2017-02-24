@@ -64,8 +64,23 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.segue` struct is generated, and contains static references to 0 view controllers.
+  /// This `R.segue` struct is generated, and contains static references to 1 view controllers.
   struct segue {
+    /// This struct is generated for `PhotoBackgroundViewController`, and contains static references to 1 segues.
+    struct photoBackgroundViewController {
+      /// Segue identifier `photoPage`.
+      static let photoPage: Rswift.StoryboardSegueIdentifier<UIKit.UIStoryboardSegue, PhotoBackgroundViewController, PhotoPageViewController> = Rswift.StoryboardSegueIdentifier(identifier: "photoPage")
+      
+      /// Optionally returns a typed version of segue `photoPage`.
+      /// Returns nil if either the segue identifier, the source, destination, or segue types don't match.
+      /// For use inside `prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?)`.
+      static func photoPage(segue: UIKit.UIStoryboardSegue) -> Rswift.TypedStoryboardSegueInfo<UIKit.UIStoryboardSegue, PhotoBackgroundViewController, PhotoPageViewController>? {
+        return Rswift.TypedStoryboardSegueInfo(segueIdentifier: R.segue.photoBackgroundViewController.photoPage, segue: segue)
+      }
+      
+      fileprivate init() {}
+    }
+    
     fileprivate init() {}
   }
   
@@ -137,6 +152,7 @@ struct _R: Rswift.Validatable {
       let bundle = R.hostingBundle
       let menuViewController = StoryboardViewControllerResource<MenuViewController>(identifier: "MenuViewController")
       let name = "Main"
+      let photoBackgroundViewController = StoryboardViewControllerResource<PhotoBackgroundViewController>(identifier: "PhotoBackgroundViewController")
       let photoPageViewController = StoryboardViewControllerResource<PhotoPageViewController>(identifier: "PhotoPageViewController")
       let photoViewController = StoryboardViewControllerResource<PhotoViewController>(identifier: "PhotoViewController")
       
@@ -148,6 +164,10 @@ struct _R: Rswift.Validatable {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: menuViewController)
       }
       
+      func photoBackgroundViewController(_: Void = ()) -> PhotoBackgroundViewController? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: photoBackgroundViewController)
+      }
+      
       func photoPageViewController(_: Void = ()) -> PhotoPageViewController? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: photoPageViewController)
       }
@@ -157,11 +177,11 @@ struct _R: Rswift.Validatable {
       }
       
       static func validate() throws {
-        if UIKit.UIImage(named: "Marker-100") == nil { throw Rswift.ValidationError(description: "[R.swift] Image named 'Marker-100' is used in storyboard 'Main', but couldn't be loaded.") }
         if _R.storyboard.main().photoPageViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'photoPageViewController' could not be loaded from storyboard 'Main' as 'PhotoPageViewController'.") }
         if _R.storyboard.main().photoViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'photoViewController' could not be loaded from storyboard 'Main' as 'PhotoViewController'.") }
         if _R.storyboard.main().menuViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'menuViewController' could not be loaded from storyboard 'Main' as 'MenuViewController'.") }
         if _R.storyboard.main().addHydrantNavigationController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'addHydrantNavigationController' could not be loaded from storyboard 'Main' as 'UIKit.UINavigationController'.") }
+        if _R.storyboard.main().photoBackgroundViewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'photoBackgroundViewController' could not be loaded from storyboard 'Main' as 'PhotoBackgroundViewController'.") }
       }
       
       fileprivate init() {}

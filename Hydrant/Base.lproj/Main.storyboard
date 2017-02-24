@@ -560,13 +560,58 @@
             </objects>
             <point key="canvasLocation" x="4429" y="-434"/>
         </scene>
-        <!--Photo Page View Controller-->
+        <!--Photo Background View Controller-->
+        <scene sceneID="CRG-xk-Pvh">
+            <objects>
+                <viewController storyboardIdentifier="PhotoBackgroundViewController" id="LAM-l4-iD2" customClass="PhotoBackgroundViewController" customModule="Hydrant" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A3W-gt-Xf7"/>
+                        <viewControllerLayoutGuide type="bottom" id="whu-h8-ToV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Zie-0B-n5q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ajx-rk-xyr">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <connections>
+                                    <segue destination="elu-p4-BdQ" kind="embed" identifier="photoPage" id="5G3-Lu-RUf"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="whu-h8-ToV" firstAttribute="top" secondItem="Ajx-rk-xyr" secondAttribute="bottom" id="caI-Nc-AFn"/>
+                            <constraint firstAttribute="trailing" secondItem="Ajx-rk-xyr" secondAttribute="trailing" id="cnL-6i-Fd4"/>
+                            <constraint firstItem="Ajx-rk-xyr" firstAttribute="leading" secondItem="Zie-0B-n5q" secondAttribute="leading" id="dYU-qq-Uls"/>
+                            <constraint firstItem="Ajx-rk-xyr" firstAttribute="top" secondItem="A3W-gt-Xf7" secondAttribute="bottom" id="pIe-YY-Eid"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="8uA-iJ-eJh">
+                        <barButtonItem key="rightBarButtonItem" systemItem="trash" id="uQ5-fh-cYg">
+                            <connections>
+                                <action selector="touchDeleteButton:" destination="LAM-l4-iD2" id="kE5-Sw-Whe"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <connections>
+                        <outlet property="containerView" destination="Ajx-rk-xyr" id="fJh-sN-hrm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aQt-KZ-nAQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4428.75" y="305.28169014084506"/>
+        </scene>
+        <!--Title-->
         <scene sceneID="zJp-0D-hOs">
             <objects>
-                <pageViewController storyboardIdentifier="PhotoPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="elu-p4-BdQ" customClass="PhotoPageViewController" customModule="Hydrant" customModuleProvider="target" sceneMemberID="viewController"/>
+                <pageViewController storyboardIdentifier="PhotoPageViewController" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="elu-p4-BdQ" customClass="PhotoPageViewController" customModule="Hydrant" customModuleProvider="target" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" title="Title" id="h6t-a7-C9C"/>
+                </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tg-jP-Ku0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4429" y="306"/>
+            <point key="canvasLocation" x="5426.25" y="305.28169014084506"/>
         </scene>
         <!--Photo View Controller-->
         <scene sceneID="zWe-XZ-Fwv">
@@ -580,7 +625,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Marker-100" translatesAutoresizingMaskIntoConstraints="NO" id="2If-px-9Ge">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2If-px-9Ge">
                                 <rect key="frame" x="0.0" y="84" width="320" height="400"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2If-px-9Ge" secondAttribute="height" multiplier="4:5" id="UDF-O3-dbu"/>
@@ -596,33 +641,12 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="photo" destination="2If-px-9Ge" id="2n4-cu-PFf"/>
+                        <outlet property="imageView" destination="2If-px-9Ge" id="LEO-J4-pLW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uS6-ao-ubM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5311.875" y="304.22535211267603"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="Flv-KX-WcJ">
-            <objects>
-                <viewController id="4aI-8S-SDf" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GYR-Hm-XkL"/>
-                        <viewControllerLayoutGuide type="bottom" id="3LM-Ob-xJL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="96Q-Gl-0ng">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.47264540199999999" blue="0.95433813329999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eTl-9Z-7Hu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="5312" y="1039"/>
+            <point key="canvasLocation" x="6309.375" y="304.22535211267603"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Marker-100" width="100" height="100"/>
-    </resources>
 </document>
