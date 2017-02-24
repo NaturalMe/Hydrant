@@ -9,7 +9,6 @@
 import UIKit
 import NextGrowingTextView
 
-/// 添加消火栓视图控制器
 class AddHydrantTableViewController: UITableViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
 
     
@@ -126,12 +125,8 @@ class AddHydrantTableViewController: UITableViewController, UIImagePickerControl
             photograph()
         } else {
             // 预览图片
-            let vc = R.storyboard.main.photoBackgroundViewController()!
-            // 去掉最后一个拍照按钮
-            var noPhotographArray = photoArray
-            noPhotographArray.removeLast()
-            vc.photoArray = noPhotographArray
-            vc.index = indexPath.row
+            let vc = R.storyboard.main.photoPageViewController()!
+            vc.photoArray = photoArray
             show(vc, sender: nil)
         }
     }

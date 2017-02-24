@@ -8,7 +8,6 @@
 
 import UIKit
 
-/// 地点选择视图控制器
 class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapViewDelegate {
 
     /// 高德地图
@@ -52,7 +51,7 @@ class SelectLocationViewController: UIViewController, AMapSearchDelegate, MAMapV
     }
     
     /// 初始化搜索功能
-    fileprivate func initSearch() {
+    func initSearch() {
         search = AMapSearchAPI()
         search?.delegate = self
     }
